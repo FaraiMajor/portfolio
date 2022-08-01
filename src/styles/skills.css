@@ -3,6 +3,10 @@
         font-size: 0.7rem;
     }
     
+    #skills {
+        height: 100%;
+    }
+    
     .skillsGrid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));

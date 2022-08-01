@@ -1,3 +1,53 @@
-.aboutContainer p {
-    line-height: 1.5;
-}
+    .aboutContainer p {
+        line-height: 1.5;
+    }
+    
+    header {
+        height: 100%;
+    }
+    
+    .aboutIntro {
+        width: 40%;
+        height: 100%;
+        margin: 150px;
+    }
+    
+    .greeting {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .myname {
+        font-size: 25px;
+        font-weight: 700;
+        color: #72A0C1
+    }
+    
+    .quote {
+        font-size: x-small;
+    }
+    
+    .socialsResume li {
+        list-style-type: none;
+        display: inline;
+        margin-left: -40px;
+        margin-right: 60px;
+    }
+    
+    .lni-linkedin-original {
+        color: rgba(0, 97, 146);
+    }
+    
+    .lni-github-original {
+        color: black
+    }
+    
+    .lni-instagram-original {
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        -webkit-background-clip: text;
+        /* Also define standard property for compatibility */
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 200px;
+        /* change this to change the size*/
+    }
