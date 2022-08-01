@@ -11,7 +11,7 @@
         padding-right: 30px;
     }
     
-    li {
+    .skillsGrid li {
         background-color: white;
         padding: 10px;
         border-radius: 15px;
@@ -21,14 +21,14 @@
         list-style: none;
     }
     
-    li:hover {
-        transition: all ease;
+    .skillsGrid li:hover {
+        transition: all ease-in-out;
         transition-duration: 2s;
         box-shadow: 0 0 5px rgb(218, 217, 224);
         transform: scale(1.5);
     }
     
-    li p {
+    .skillsGrid li p {
         margin-top: 10px;
     }
     

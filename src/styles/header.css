@@ -1,0 +1,52 @@
+.navList {
+    margin: 0 70px 50px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.nav-item {
+    text-align: center;
+    padding: 0.3rem 1rem;
+    border-radius: 10px;
+    font-weight: 500;
+    list-style-type: none;
+}
+
+.nav-item a {
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.navList .nav-item:hover {
+    color: white;
+    background-color: #72A0C1;
+    transition: all ease-in-out;
+    transition-duration: 1s;
+    transform: scale(1.1);
+}
+
+.navList .nav-item a:hover {
+    color: white;
+}
+
+.navList #farai {
+    text-decoration: none;
+    /* background-color: rgb(73, 70, 70); */
+    color: black;
+    /* border: solid rgb(73, 70, 70) 1px; */
+    border-radius: 100%;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 15px;
+}
+
+.nav-name:first-child {
+    margin-right: auto;
+    margin-left: 2rem;
+    list-style-type: none;
+}

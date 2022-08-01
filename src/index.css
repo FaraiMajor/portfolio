@@ -14,12 +14,12 @@ body {
 
 span {
     font-size: 10px;
-    margin-left: 175px;
+    margin-left: 165px;
     color: #72A0C1;
-    font-weight: 500;
+    font-weight: 900;
 }
 
 .sectionHead h2 {
-    margin: 0 0 10px 100px;
-    font-size: 1.8rem;
+    margin: 9px 0 10px 100px;
+    font-size: 1.6rem;
 }

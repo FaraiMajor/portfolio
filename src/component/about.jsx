@@ -9,7 +9,7 @@ export default function About() {
                 <p> "Sometimes it's better to leave something alone, to pause, and that's very true of programming." - Joyce Wheeler</p></div>
             <section class="skillsSection" id="skills">
                 <div class="sectionHead">
-                    <span>SOME MORE</span>
+                    <span>A LITTLE BIT</span>
                     <h2>ABOUT ME</h2>
                 </div>
                 <div className="aboutContainer sectionContainer">
