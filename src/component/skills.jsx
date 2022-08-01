@@ -1,6 +1,6 @@
 import React from "react";
-import { faHome } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import '../styles/skills.css'
 
 export default function Skills() {
     return (
@@ -60,12 +60,7 @@ export default function Skills() {
                             <p>Java</p>
                         </div>
                     </li>
-                    <li>
-                        <div class="itemContainer">
-                            <FontAwesomeIcon icon={faHome} />
-                            <p>Firebase</p>
-                        </div>
-                    </li>
+
                     <li>
                         <div class="itemContainer">
                             <i class="lni lni-wordpress-filled"></i>
@@ -74,26 +69,20 @@ export default function Skills() {
                     </li>
                     <li>
                         <div class="itemContainer">
-                            {/* <img src="assets/skills/microsoftWindows.svg"> */}
-                            <p>Windows</p>
+                            <i class="lni lni-npm"></i>
+                            <p>NPM</p>
                         </div>
                     </li>
                     <li>
                         <div class="itemContainer">
-                            {/* <img src="assets/skills/microsoft.svg"> */}
-                            <p>M365</p>
+                            <i class="lni lni-dev"></i>
+                            <p>Dev</p>
                         </div>
                     </li>
                     <li>
                         <div class="itemContainer">
-                            {/* <img src="assets/skills/dns.svg"> */}
-                            <p>DNS</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="itemContainer">
-                            {/* <img src="assets/skills/network.svg"> */}
-                            <p>Networks</p>
+                            <i class="lni lni-discord"></i>
+                            <p>Discord</p>
                         </div>
                     </li>
                 </ul>

@@ -1,0 +1,78 @@
+    .skillsContainer {
+        text-align: center;
+        font-size: 0.7rem;
+    }
+    
+    .skillsGrid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+        column-gap: 50px;
+        row-gap: 30px;
+        padding-right: 30px;
+    }
+    
+    li {
+        background-color: white;
+        padding: 10px;
+        border-radius: 15px;
+        width: 80px;
+        box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.2);
+        border: 1px rgb(232, 232, 232) solid;
+        list-style: none;
+    }
+    
+    li:hover {
+        transition: all ease;
+        transition-duration: 2s;
+        box-shadow: 0 0 5px rgb(218, 217, 224);
+        transform: scale(1.5);
+    }
+    
+    li p {
+        margin-top: 10px;
+    }
+    
+    .lni {
+        font-size: 25px;
+    }
+    
+    .lni-react {
+        color: rgba(97, 219, 251);
+    }
+    
+    .lni-nodejs-alt {
+        color: rgba(104, 160, 99);
+        font-size: 30px;
+    }
+    
+    .lni-npm {
+        color: rgba(204, 53, 52);
+    }
+    
+    .lni-git {
+        color: rgba(241, 80, 47);
+    }
+    
+    .lni-javascript {
+        color: rgba(240, 219, 79);
+    }
+    
+    .lni-html5 {
+        color: rgba(227, 76, 38);
+    }
+    
+    .lni-css3 {
+        color: rgba(60, 153, 220);
+    }
+    
+    .lni-java {
+        color: rgba(237, 29, 37);
+    }
+    
+    .lni-wordpress-filled {
+        color: rgba(0, 116, 156);
+    }
+    
+    .lni-discord {
+        color: rgba(115, 138, 219)
+    }
