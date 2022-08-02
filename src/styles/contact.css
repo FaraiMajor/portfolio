@@ -8,11 +8,11 @@
     /* margin-top: 48px; */
     border: solid rgb(165, 162, 162) 1px;
     padding: 20px;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
 #contactForm input {
-    border-radius: 10px;
+    border-radius: 5px;
     margin-bottom: 15px;
     padding: 10px;
     border: rgb(165, 162, 162)1px solid;
@@ -24,7 +24,7 @@
     flex-direction: column;
 }
 
-.contactContainer h3 {
+#dark .contactContainer h3 {
     color: whitesmoke;
 }
 
@@ -41,7 +41,7 @@
 
 textarea {
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: rgb(165, 162, 162)1px solid;
     resize: none;
 }
@@ -58,4 +58,12 @@ textarea {
     transition: all ease-in;
     transition-duration: 1s;
     box-shadow: 0 0 5px rgb(218, 217, 224);
+}
+
+.contactContainer {
+    display: flex;
+}
+
+.form-item {
+    margin-right: 40px;
 }

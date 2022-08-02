@@ -1,7 +1,7 @@
 header {
     display: flex;
     height: 100%;
-    margin: 70px 0px 180px 200px;
+    margin: 110px 0px 110px 200px;
 }
 
 .aboutIntro {
@@ -72,8 +72,13 @@ header {
     /* change this to change the size*/
 }
 
-.BgAnimation__svg {
+#dark .BgAnimation__svg {
+    margin-bottom: 35px;
     width: 100%;
     background-color: #0F1624;
-    border-radius: 50px;
+}
+
+.BgAnimation__svg {
+    margin-bottom: 35px;
+    width: 100%;
 }

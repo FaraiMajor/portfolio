@@ -3,6 +3,7 @@ body {
     margin: 0;
     background: whitesmoke;
     font-weight: 300;
+    width: 100%;
 }
 
 .sectionContainer {

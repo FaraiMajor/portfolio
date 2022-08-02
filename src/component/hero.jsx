@@ -1,6 +1,6 @@
 import React from "react";
 import BackgroundAnimation from "./backgroundAnimation";
-import '../styles/mainpage.css'
+import '../styles/hero.css'
 
 export default function Main() {
     return (

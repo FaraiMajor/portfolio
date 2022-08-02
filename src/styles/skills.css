@@ -33,7 +33,7 @@
     
     .skillsGrid li:hover {
         transition: all ease-in-out;
-        transition-duration: 2s;
+        transition-duration: 1s;
         box-shadow: 0 0 5px rgb(218, 217, 224);
         transform: scale(1.5);
     }
