@@ -1,0 +1,79 @@
+header {
+    display: flex;
+    height: 100%;
+    margin: 70px 0px 180px 200px;
+}
+
+.aboutIntro {
+    margin: 10px 80px;
+}
+
+.greeting {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#dark .greeting {
+    color: whitesmoke;
+}
+
+.myname {
+    font-size: 30px;
+    font-weight: 700;
+    color: #8cb1cb
+}
+
+#dark .myname {
+    color: #467ca3;
+}
+
+.quote {
+    font-size: x-small;
+}
+
+#dark .quote {
+    color: whitesmoke;
+}
+
+.statement {
+    font-size: 20px;
+}
+
+#dark .statement {
+    color: whitesmoke;
+}
+
+.socialsResume li {
+    list-style-type: none;
+    display: inline;
+    margin-left: -40px;
+    margin-right: 60px;
+}
+
+.lni-linkedin-original {
+    color: rgba(0, 97, 146);
+}
+
+.lni-github-original {
+    color: black
+}
+
+#dark .lni-github-original {
+    color: white;
+}
+
+.lni-instagram-original {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* font-size: 200px; */
+    /* change this to change the size*/
+}
+
+.BgAnimation__svg {
+    width: 100%;
+    background-color: #0F1624;
+    border-radius: 50px;
+}

@@ -25,6 +25,12 @@
         list-style: none;
     }
     
+    #dark .skillsGrid li {
+        color: white;
+        background-color: #0F1624;
+        border: none;
+    }
+    
     .skillsGrid li:hover {
         transition: all ease-in-out;
         transition-duration: 2s;

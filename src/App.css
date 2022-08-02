@@ -1,0 +1,30 @@
+#light {
+    background-color: whitesmoke;
+}
+
+#dark {
+    background-color: #0F1624;
+}
+
+.switch {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 10px;
+}
+
+ReactSwitch {
+    font-size: 10px;
+}
+
+.switch label {
+    margin: 10px;
+}
+
+#light .switch label {
+    color: black;
+}
+
+#dark .switch label {
+    color: white;
+}

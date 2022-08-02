@@ -24,6 +24,10 @@
     flex-direction: column;
 }
 
+.contactContainer h3 {
+    color: whitesmoke;
+}
+
 .formSend {
     width: 100%;
     margin: 15px auto;

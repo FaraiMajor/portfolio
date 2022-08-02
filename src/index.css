@@ -12,6 +12,10 @@ body {
     margin: 0px 100px 100px;
 }
 
+#dark .sectionContainer {
+    background-color: #192335;
+}
+
 span {
     font-size: 10px;
     margin-left: 165px;
@@ -19,7 +23,15 @@ span {
     font-weight: 900;
 }
 
+#dark span {
+    color: #aed5f0;
+}
+
 .sectionHead h2 {
     margin: 15px 0 30px 100px;
     font-size: 1.6rem;
+}
+
+#dark .sectionHead {
+    color: white;
 }
