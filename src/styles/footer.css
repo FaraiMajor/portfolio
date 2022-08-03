@@ -9,6 +9,14 @@ footer {
     height: 40px;
 }
 
+@media (max-width: 767px) {
+    footer {
+        text-align: center;
+        left: 0;
+        bottom: 0;
+    }
+}
+
 #dark footer {
     background-color: #0F1624;
     color: whitesmoke;

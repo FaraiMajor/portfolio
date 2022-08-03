@@ -55,3 +55,10 @@
     list-style-type: none;
     text-transform: uppercase;
 }
+
+@media (max-width: 768px) {
+    .navList {
+        display: flex;
+        margin: 0;
+    }
+}

@@ -5,3 +5,9 @@
     #dark .aboutContainer p {
         color: whitesmoke;
     }
+    
+    @media (max-width: 767px) {
+        .aboutContainer {
+            padding: 0 10px;
+        }
+    }

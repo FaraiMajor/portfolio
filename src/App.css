@@ -6,6 +6,12 @@
     background-color: #0F1624;
 }
 
+@media (prefers-color-scheme: dark) {
+    #dark {
+        background-color: #0F1624;
+    }
+}
+
 .switch {
     display: flex;
     justify-content: right;
@@ -15,6 +21,12 @@
 
 ReactSwitch {
     font-size: 10px;
+}
+
+@media (max-width: 767) {
+    .react-switch-bg {
+        display: none;
+    }
 }
 
 .switch label {

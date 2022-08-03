@@ -5,7 +5,7 @@ import '../styles/about.css'
 export default function About() {
     return (
         // header
-        <div id='main'>
+        <div>
             {/* about section */}
             <section class="aboutSection" id="about">
                 <div class="sectionHead">

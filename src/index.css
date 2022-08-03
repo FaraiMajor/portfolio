@@ -6,6 +6,13 @@ body {
     width: 100%;
 }
 
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+        margin: 0;
+    }
+}
+
 .sectionContainer {
     background-color: white;
     border-radius: 50px;
@@ -15,6 +22,21 @@ body {
 
 #dark .sectionContainer {
     background-color: #192335;
+}
+
+@media (max-width: 768px) {
+    .sectionContainer {
+        -webkit-text-size-adjust: 100%;
+        padding: 0;
+        display: block;
+        font: inherit;
+        background-color: transparent;
+        margin: 0;
+        vertical-align: baseline;
+    }
+    #dark .sectionContainer {
+        background-color: transparent;
+    }
 }
 
 span {
