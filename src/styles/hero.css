@@ -1,15 +1,112 @@
 #mainEl {
+    /* width: 100%; */
     display: flex;
-    margin: 110px 0px 110px 200px;
+    margin: 140px;
 }
 
-.BgAnimation__svg {
+
+/* .BgAnimation__svg {
     margin-bottom: 35px;
     width: 100%;
+} */
+
+
+/* cube spinner CSS */
+
+.stage-cube-cont {
+    width: 50%;
+    height: 50%;
+    /* position: absolute; */
+    /* overflow: hidden; */
 }
 
+.cubespinner {
+    animation-name: spincube;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+    transform-style: preserve-3d;
+    transform-origin: 100px 100px 0;
+    /* margin-left: calc(10% - 100px); */
+}
+
+.cubespinner div {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    /* background: rgba(255, 255, 255, 0.4); */
+    background: transparent;
+    text-align: center;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px 0px lightyellow;
+}
+
+#dark .cubespinner div {
+    background: transparent;
+}
+
+.cubespinner .face1 {
+    transform: translateZ(100px);
+    color: #dd0031;
+}
+
+.cubespinner .face2 {
+    transform: rotateY(90deg) translateZ(100px);
+    color: #f06529;
+}
+
+.cubespinner .face3 {
+    transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+    color: #28a4d9;
+}
+
+.cubespinner .face4 {
+    transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+    color: #5ed4f4;
+}
+
+.cubespinner .face5 {
+    transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+    color: #efd81d;
+}
+
+.cubespinner .face6 {
+    transform: rotateX(-90deg) translateZ(100px);
+    color: #ec4d28;
+}
+
+@keyframes spincube {
+    from,
+    to {
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+    16% {
+        transform: rotateY(-90deg);
+    }
+    33% {
+        transform: rotateY(-90deg) rotateZ(90deg);
+    }
+    50% {
+        transform: rotateY(-180deg) rotateZ(90deg);
+    }
+    66% {
+        transform: rotateY(-270deg) rotateX(90deg);
+    }
+    83% {
+        transform: rotateX(90deg);
+    }
+}
+
+
+/* cube spinner css ends */
+
 .aboutIntro {
-    margin: 10px 80px;
+    /* margin: 10px 80px; */
+    /* margin-left: 300px; */
 }
 
 .greeting {
@@ -90,6 +187,13 @@
         margin: 10px 0;
     }
     .aboutIntro {
+        margin-top: 70%;
         width: 90%;
+    }
+    .stage-cube-cont {
+        margin-top: 12%;
+    }
+    #dark .cubespinner div {
+        background-color: transparent;
     }
 }

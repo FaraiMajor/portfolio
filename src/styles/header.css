@@ -30,7 +30,7 @@
     color: white;
     background-color: #72A0C1;
     transition: all ease-in-out;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     transform: scale(1.1);
 }
 

@@ -1,13 +1,45 @@
 import React from "react";
-import BackgroundAnimation from "./backgroundAnimation";
-import '../styles/hero.css'
+import {
+    faAngular,
+    faCss3,
+    faGitAlt,
+    faHtml5,
+    faJsSquare,
+    faNode,
+    faNodeJs,
+    faReact,
+} from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import '../styles/hero.css';
 
 export default function Main() {
     return (
         // header
         <div id='mainEl'>
 
-            <div class="heroImageContainer">
+            <div className="stage-cube-cont">
+                <div className="cubespinner">
+                    <div className="face1">
+                        <FontAwesomeIcon icon={faNode} color='rgba(104, 160, 99)' />
+                    </div>
+                    <div className="face2">
+                        <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+                    </div>
+                    <div className="face3">
+                        <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+                    </div>
+                    <div className="face4">
+                        <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+                    </div>
+                    <div className="face5">
+                        <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+                    </div>
+                    <div className="face6">
+                        <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+                    </div>
+                </div>
+            </div>
+            {/* <div class="heroImageContainer">
                 <svg
                     className="BgAnimation__svg"
                     viewBox="0 0 602 602"
@@ -365,7 +397,7 @@ export default function Main() {
                         </linearGradient>
                     </defs>
                 </svg>
-            </div>
+            </div> */}
             <div className="aboutIntro">
                 <p className="greeting">HI THERE! I'M</p>
                 <p className="myname">FARAI MUTUKUMIRA</p>

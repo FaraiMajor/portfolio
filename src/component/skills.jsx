@@ -1,4 +1,13 @@
 import React from "react";
+import {
+    faCss3,
+    faGitAlt,
+    faHtml5,
+    faJsSquare,
+    faNode,
+    faReact,
+} from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import '../styles/skills.css'
 
