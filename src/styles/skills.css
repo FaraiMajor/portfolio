@@ -3,6 +3,13 @@
         font-size: 0.7rem;
     }
     
+    @media (max-width: 767px) {
+        .skillsGrid {
+            margin: 0;
+            padding: 10px;
+        }
+    }
+    
     #skills {
         height: 100%;
     }
