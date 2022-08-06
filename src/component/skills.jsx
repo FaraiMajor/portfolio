@@ -1,11 +1,7 @@
 import React from "react";
 import {
     faCss3,
-    faGitAlt,
     faHtml5,
-    faJsSquare,
-    faNode,
-    faReact,
 } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -53,13 +49,15 @@ export default function Skills() {
                     </li>
                     <li>
                         <div class="itemContainer">
-                            <i class="lni lni-html5"></i>
+                            {/* <i class="lni lni-html5"></i> */}
+                            <FontAwesomeIcon icon={faHtml5} color="#F06529" fontSize={25} />
                             <p>HTML5</p>
                         </div>
                     </li>
                     <li>
                         <div class="itemContainer">
-                            <i class="lni lni-css3"></i>
+                            {/* <i class="lni lni-css3"></i> */}
+                            <FontAwesomeIcon icon={faCss3} color="#28A4D9" fontSize={25} />
                             <p>CSS</p>
                         </div>
                     </li>

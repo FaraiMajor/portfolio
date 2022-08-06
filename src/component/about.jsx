@@ -1,5 +1,4 @@
 import React from "react";
-import BackgroundAnimation from "./backgroundAnimation";
 import '../styles/about.css'
 
 export default function About() {

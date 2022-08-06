@@ -1,21 +1,16 @@
 #mainEl {
     /* width: 100%; */
     display: flex;
-    margin: 140px;
+    margin: 150px 150px 125px 150px;
 }
-
-
-/* .BgAnimation__svg {
-    margin-bottom: 35px;
-    width: 100%;
-} */
 
 
 /* cube spinner CSS */
 
 .stage-cube-cont {
-    width: 50%;
-    height: 50%;
+    width: 25%;
+    height: 25%;
+    margin-right: 100px;
     /* position: absolute; */
     /* overflow: hidden; */
 }
@@ -105,8 +100,7 @@
 /* cube spinner css ends */
 
 .aboutIntro {
-    /* margin: 10px 80px; */
-    /* margin-left: 300px; */
+    /* margin-left: 50px; */
 }
 
 .greeting {
@@ -118,14 +112,8 @@
     color: whitesmoke;
 }
 
-.myname {
-    font-size: 30px;
-    font-weight: 700;
-    color: #8cb1cb
-}
-
-#dark .myname {
-    color: #467ca3;
+.textArea {
+    line-height: 1rem;
 }
 
 .quote {
@@ -149,6 +137,16 @@
     display: inline;
     margin-left: -40px;
     margin-right: 60px;
+}
+
+.socialsResume .lni:hover {
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #72A0C1;
+    transition: all ease-in-out;
+    transition-duration: 1s;
+    transform: scale(1.1);
 }
 
 .lni-linkedin-original {
@@ -196,4 +194,22 @@
     #dark .cubespinner div {
         background-color: transparent;
     }
+}
+
+#dark .myname {
+    color: #467ca3;
+}
+
+.myname {
+    /* position: absolute; */
+    /* top: 50%;
+    right: 50%; */
+    /* transform: translate(50%, -50%); */
+    text-transform: uppercase;
+    font-family: verdana;
+    padding: 0 0 10px;
+    font-size: 4em;
+    font-weight: 700;
+    color: #72A0C1;
+    text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191, 1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191, 1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191, 1px 10px 1px #919191, 1px 18px 6px rgba(16, 16, 16, 0.4), 1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2), 1px 30px 60px rgba(16, 16, 16, 0.4);
 }

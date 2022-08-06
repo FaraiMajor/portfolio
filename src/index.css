@@ -36,6 +36,10 @@ body {
     }
     #dark .sectionContainer {
         background-color: transparent;
+        /* margin-bottom: 20px; */
+    }
+    .sectionContainer {
+        margin-bottom: 50px;
     }
 }
 

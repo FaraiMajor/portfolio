@@ -1,12 +1,11 @@
 import React from "react";
 import {
-    faAngular,
+
     faCss3,
     faGitAlt,
     faHtml5,
     faJsSquare,
     faNode,
-    faNodeJs,
     faReact,
 } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -399,10 +398,12 @@ export default function Main() {
                 </svg>
             </div> */}
             <div className="aboutIntro">
-                <p className="greeting">HI THERE! I'M</p>
-                <p className="myname">FARAI MUTUKUMIRA</p>
-                <p className="statement">I write code</p>
-                <p className="quote"> "Sometimes it's better to leave something alone, to pause, and that's very true of programming." - Joyce Wheeler</p>
+                <div className="textArea">
+                    <p className="greeting">HI THERE! I'M</p>
+                    <h1 className="myname">FARAI</h1>
+                    <p className="statement">I write code</p>
+                    <p className="quote"> "Sometimes it's better to leave something alone, to pause, and that's very true of programming." - Joyce Wheeler</p>
+                </div>
                 <div class="socialsResume">
 
                     <ul class="socialsList">
