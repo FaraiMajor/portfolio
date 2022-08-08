@@ -1,0 +1,103 @@
+.workBox {
+    display: flex;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 15px;
+    box-shadow: 5px 14px 28px rgba(31, 53, 75, 0.09);
+    transition: ease;
+    border: 0.5px solid whitesmoke;
+}
+
+#dark .workBox {
+    box-shadow: 5px 14px 28px rgba(126, 136, 145, 0.09);
+    border: 0.5px solid rgb(32, 39, 59);
+}
+
+.workBox:first-child {
+    margin-top: 0;
+}
+
+@media (max-width: 767px) {
+    .workBox {
+        display: block;
+        padding: 0;
+    }
+    .describeContainer {
+        margin-left: 0;
+        margin-top: 20px;
+        padding: 20px;
+    }
+}
+
+.imageContainer {
+    flex: 0 0 350px;
+    border-radius: 10px;
+    height: auto;
+}
+
+.imageContainer img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.describeContainer {
+    flex: 0 1 calc(100% - 350px);
+    margin-left: 25px;
+}
+
+.describeContainer h3 {
+    letter-spacing: 1px;
+}
+
+#dark .describeContainer {
+    color: whitesmoke;
+}
+
+.describeContainer ul {
+    list-style: disc inside;
+    font-size: 0.9rem;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.describeContainer ul li:not(:first-child) {
+    margin-top: 10px;
+}
+
+.describeContainer p {
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+
+.describeContainer h4 {
+    font-size: 1rem;
+    margin-top: 7px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+
+.describeContainer span {
+    color: #72A0C1;
+    font-size: 1rem;
+    display: inline-block;
+    margin: 0;
+    padding: 0 5px;
+}
+
+.describeContainer .projectLinks {
+    margin-top: 50px;
+}
+
+.describeContainer .projectLinks a {
+    font-size: 1.1rem;
+    margin-right: 20px;
+    color: #72A0C1;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.describeContainer .workLinks a:focus {
+    /* border:  ; */
+}
