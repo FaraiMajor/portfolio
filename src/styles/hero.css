@@ -20,7 +20,7 @@
     animation-name: spincube;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    animation-duration: 12s;
+    animation-duration: 10s;
     transform-style: preserve-3d;
     transform-origin: 100px 100px 0;
     /* margin-left: calc(10% - 100px); */
@@ -33,9 +33,9 @@
     padding: 50px;
     border: 1px solid #ccc;
     /* background: rgba(255, 255, 255, 0.4); */
-    background: transparent;
+    background: rgba(245, 245, 245, 0.1);
     text-align: center;
-    font-size: 150px;
+    font-size: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
