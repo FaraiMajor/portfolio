@@ -12,8 +12,6 @@
     width: 25%;
     height: 25%;
     margin-right: 100px;
-    /* position: absolute; */
-    /* overflow: hidden; */
 }
 
 .cubespinner {
@@ -31,8 +29,6 @@
     width: 200px;
     height: 200px;
     padding: 50px;
-    border: 1px solid #ccc;
-    /* background: rgba(255, 255, 255, 0.4); */
     background: rgba(245, 245, 245, 0.1);
     text-align: center;
     font-size: 180px;
@@ -44,6 +40,7 @@
 
 #dark .cubespinner div {
     background: transparent;
+    box-shadow: 0 0 20px 0px rgb(59, 64, 77);
 }
 
 .cubespinner .face1 {
@@ -187,9 +184,10 @@
     .stage-cube-cont {
         margin-top: 12%;
     }
-    #dark .cubespinner div {
+    .cubespinner div {
         background-color: transparent;
         padding: 0;
+        font-size: 100px;
     }
     .cubespinner .face1 {
         transform: translateZ(100px);
