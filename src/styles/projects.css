@@ -93,11 +93,18 @@
 .describeContainer .projectLinks a {
     font-size: 1.1rem;
     margin-right: 20px;
-    color: #72A0C1;
+    color: whitesmoke;
+    font-weight: 600;
     display: inline-block;
-    text-decoration: underline;
+    text-decoration: none;
+    background-color: #72A0C1;
+    padding: 5px 10px;
+    border-radius: 10px;
 }
 
-.describeContainer .workLinks a:focus {
-    /* border:  ; */
+.describeContainer .projectLinks a:hover {
+    background-color: #011421;
+    transition: all ease-in-out;
+    transition-duration: 0.9s;
+    transform: scale(1.2);
 }

@@ -1,9 +1,18 @@
 .navList {
-    margin: 0 70px 5px;
+    position: fixed;
+    margin: 0;
     display: flex;
+    width: 100%;
+    background-color: whitesmoke;
+    box-shadow: 0px 14px 28px rgba(10, 31, 49, 0.09);
     justify-content: right;
     align-items: center;
-    padding: 10px 0;
+    padding: 15px 0;
+}
+
+#dark .navList {
+    background-color: #192335;
+    box-shadow: 0px 14px 28px rgba(175, 193, 208, 0.04);
 }
 
 #dark .navList a {
@@ -19,7 +28,7 @@
 }
 
 .nav-item a {
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 500;
     text-decoration: none;
     text-transform: uppercase;
@@ -40,11 +49,9 @@
 
 .navList #farai {
     text-decoration: none;
-    /* background-color: rgb(73, 70, 70); */
     color: black;
-    /* border: solid rgb(73, 70, 70) 1px; */
     border-radius: 100%;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 700;
     padding: 10px 15px;
 }
@@ -60,5 +67,11 @@
     .navList {
         display: flex;
         margin: 0;
+    }
+    .nav-item a {
+        font-size: 12px;
+    }
+    .navList #farai {
+        font-size: 15px;
     }
 }
