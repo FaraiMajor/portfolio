@@ -22,8 +22,8 @@ export default function Contact() {
         <div id='contact'>
             <section class="contactSection" >
                 <div class="sectionHead">
-                    <span>LET'S CONNECT</span>
-                    <h2>CONTACT</h2>
+
+                    <h2><span>MY</span> CONTACT</h2>
                 </div>
                 <div className="contactContainer sectionContainer">
 

@@ -18,7 +18,7 @@ function App() {
   const [theme, setTheme] = useState("dark");
 
   const toggleTheme = () => {
-    setTheme((curr) => (curr === "light" ? "light" : "dark"));
+    setTheme((curr) => (curr === "light" ? "dark" : "light"));
   };
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>

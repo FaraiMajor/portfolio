@@ -8,8 +8,8 @@ export default function About() {
             {/* about section */}
             <section class="aboutSection" id="about">
                 <div class="sectionHead">
-                    <span>A LITTLE BIT</span>
-                    <h2>ABOUT ME</h2>
+
+                    <h2> <span>BIT</span> ABOUT ME</h2>
                 </div>
                 <div className="aboutContainer sectionContainer">
                     <p>Software Developer and lifelong technology enthusiast,

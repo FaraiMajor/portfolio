@@ -28,8 +28,9 @@
     position: absolute;
     width: 200px;
     height: 200px;
+    border: 1px solid #ccc;
     padding: 50px;
-    background: rgba(245, 245, 245, 0.1);
+    background: rgba(245, 245, 245, 0.4);
     text-align: center;
     font-size: 180px;
     display: flex;
@@ -40,6 +41,7 @@
 
 #dark .cubespinner div {
     background: transparent;
+    border: 1px whitesmoke solid;
     box-shadow: 0 0 20px 0px rgb(59, 64, 77);
 }
 

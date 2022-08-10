@@ -11,8 +11,8 @@ export default function Skills() {
     return (
         <section class="skillsSection" id="skills">
             <div class="sectionHead">
-                <span>CHECK OUT MY</span>
-                <h2>SKILLS</h2>
+
+                <h2><span>MY</span> SKILLS</h2>
             </div>
 
             <div class="skillsContainer sectionContainer">
