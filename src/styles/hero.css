@@ -217,6 +217,16 @@
     }
 }
 
+@media (max-width: 990px) {
+    #mainEl {
+        display: flex;
+        flex-direction: column;
+    }
+    .stage-cube-cont {
+        margin-bottom: 20%;
+    }
+}
+
 #dark .myname {
     color: #467ca3;
 }

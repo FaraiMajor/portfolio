@@ -25,7 +25,7 @@ export default function Projects() {
                                 <li>App stores data usiong mongoDB</li>
                             </ul>
                             <div class="projectLinks">
-                                <a href="https://weather-rangers-frontend.herokuapp.com/" class="liveLink" target="_blank" rel="noopener noreferrer">Live</a>
+                                <a href="https://github.com/FaraiMajor/memoirs" class="liveLink" target="_blank" rel="noopener noreferrer">Live</a>
                                 <a href="https://github.com/FaraiMajor/memoirs" class="repoLink" target="_blank" rel="noopener noreferrer">Repo</a>
                             </div>
                         </div>
