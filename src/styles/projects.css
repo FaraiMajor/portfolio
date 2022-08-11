@@ -108,3 +108,10 @@
     transition-duration: 0.9s;
     transform: scale(1.2);
 }
+
+@media (max-width: 990px) {
+    .workBox {
+        display: flex;
+        flex-direction: column;
+    }
+}

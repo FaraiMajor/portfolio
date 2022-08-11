@@ -84,6 +84,17 @@ textarea {
     }
 }
 
+@media (max-width: 990px) {
+    .contactContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .form-item {
+        width: 65%;
+        margin: 0 60px 50px;
+    }
+}
+
 #map {
     overflow: hidden;
     margin: 0 auto;

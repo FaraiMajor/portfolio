@@ -45,7 +45,8 @@ export default function Contact() {
                     </div>
 
                     <div id='map'>
-                        <iframe width="180%" height="425" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=60%25&amp;height=400&amp;hl=en&amp;q=Richmond%20HIll,%20NY+(Farai%20Major)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">measure distance on map</a></iframe>
+                        <iframe width="100%" height="425" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=425&amp;hl=en&amp;q=Google%20111%208th%20Ave,%20New%20York,%20NY%2010011+(Find%20me%20Here)&amp;t=k&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">distance maps</a></iframe>
+                        {/* <iframe width="180%" height="425" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=60%25&amp;height=400&amp;hl=en&amp;q=Richmond%20HIll,%20NY+(Farai%20Major)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">measure distance on map</a></iframe> */}
                     </div>
                 </div>
 
