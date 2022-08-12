@@ -4,6 +4,7 @@ body {
     background: whitesmoke;
     font-weight: 300;
     width: 100%;
+    scroll-behavior: smooth;
 }
 
 @media (max-width: 768px) {

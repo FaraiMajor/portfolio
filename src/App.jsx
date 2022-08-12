@@ -10,6 +10,7 @@ import Main from './component/hero';
 import './App.css';
 import { createContext, useState } from "react";
 import ReactSwitch from "react-switch";
+import ScrollToTop from 'react-scroll-to-top';
 
 
 export const ThemeContext = createContext(null);
@@ -23,6 +24,7 @@ function App() {
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div id={theme}>
+        <ScrollToTop smooth />
 
         <Header />
         <Main />

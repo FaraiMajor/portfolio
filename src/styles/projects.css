@@ -17,15 +17,17 @@
     margin-top: 0;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .workBox {
         display: block;
         padding: 0;
     }
     .describeContainer {
         margin-left: 0;
-        margin-top: 20px;
         padding: 20px;
+    }
+    .imageContainer {
+        flex: none;
     }
 }
 
@@ -113,5 +115,11 @@
     .workBox {
         display: flex;
         flex-direction: column;
+    }
+    .describeContainer {
+        margin-top: 0;
+    }
+    .imageContainer {
+        flex: none;
     }
 }
