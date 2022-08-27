@@ -139,7 +139,7 @@
         margin: 0;
         /* navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar) */
         position: absolute;
-        top: 45px;
+        top: 55px;
         left: 0;
         /* stacks the li tags vertically  */
         flex-direction: column;
@@ -169,5 +169,8 @@
     }
     #light .navList ul {
         background-color: whitesmoke;
+    }
+    .navBar {
+        padding: 15px 0;
     }
 }
