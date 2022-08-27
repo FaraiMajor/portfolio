@@ -117,11 +117,11 @@
 }
 
 .hamburger:hover {
-    background-color: #2642af;
+    background-color: transparent;
 }
 
 #light .hamburger {
-    background-color: black;
+    background-color: #192335;
 }
 
 .hamburger:hover {
@@ -136,16 +136,18 @@
         display: block;
     }
     .navList ul {
+        margin: 0;
         /* navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar) */
         position: absolute;
-        top: 60px;
+        top: 45px;
         left: 0;
         /* stacks the li tags vertically  */
         flex-direction: column;
         /* makes menu span full height and width */
         width: 100%;
-        height: calc(100vh - 77px);
-        background-color: white;
+        height: calc(100vh - 500px);
+        background-color: #192335;
+        z-index: 1;
         border-top: 1px solid black;
     }
     .navList li {
@@ -154,21 +156,18 @@
         margin: 0;
     }
     .navList li a {
-        color: black;
+        /* color: black; */
         /* increases the surface area of the anchor tag to span the full width of the menu */
         width: 100%;
-        padding: 1.5rem 0;
+        padding: 1.2rem 0;
     }
     .navList li:hover {
         background-color: #eee;
     }
     .navList.expanded ul {
-        margin: 0;
         display: block;
-        color: white;
-        background-color: #192335;
-        height: 1px;
-        position: absolute;
-        z-index: 1;
+    }
+    #light .navList ul {
+        background-color: whitesmoke;
     }
 }
