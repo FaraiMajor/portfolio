@@ -1,4 +1,17 @@
-.navList {
+.navBar {
+    /* height: 60px; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    padding: 5px 0rem;
+    background-color: #fff;
+    color: black;
+    box-shadow: 0px 14px 28px rgba(10, 31, 49, 0.09);
+}
+
+
+/* .navList {
     position: fixed;
     margin: 0;
     display: flex;
@@ -7,10 +20,10 @@
     box-shadow: 0px 14px 28px rgba(10, 31, 49, 0.09);
     justify-content: right;
     align-items: center;
-    padding: 15px 0;
-}
+    
+} */
 
-#dark .navList {
+#dark .navBar {
     background-color: #192335;
     box-shadow: 0px 14px 28px rgba(175, 193, 208, 0.04);
 }
@@ -19,21 +32,59 @@
     color: whitesmoke;
 }
 
+#dark #farai {
+    color: white;
+}
+
+#farai {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.navList {
+    margin-left: auto;
+}
+
+.navList ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.navList li {
+    /* removes default disc bullet for li tags and applies margin to left & right side */
+    list-style-type: none;
+    margin: 0 1rem;
+}
+
+.navList li a {
+    /*  increases the surface area of the anchor tag to span more than just the anchor text */
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #111;
+}
+
 .nav-item {
     text-align: center;
-    padding: 0.3rem 1rem;
+    padding: 0.3rem 0.5rem;
     border-radius: 10px;
-    font-weight: 500;
+    font-weight: 300;
     list-style-type: none;
 }
 
-.nav-item a {
+
+/* .nav-item a {
     font-size: 15px;
     font-weight: 500;
     text-decoration: none;
     text-transform: uppercase;
     color: black;
-}
+} */
 
 .navList .nav-item:hover {
     color: white;
@@ -47,31 +98,77 @@
     color: white;
 }
 
-.navList #farai {
-    text-decoration: none;
-    color: black;
-    border-radius: 100%;
-    font-size: 25px;
-    font-weight: 700;
-    padding: 10px 15px;
+.hamburger {
+    /* removes default border on button element */
+    border: 0;
+    height: 40px;
+    width: 40px;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    /* positions the icon to the right and center aligns it vertically */
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    display: none;
 }
 
-.nav-name:first-child {
-    margin-right: auto;
-    margin-left: 2rem;
-    list-style-type: none;
-    text-transform: uppercase;
+.hamburger:hover {
+    background-color: #2642af;
+}
+
+#light .hamburger {
+    background-color: black;
+}
+
+.hamburger:hover {
+    background-color: transparent;
 }
 
 @media (max-width: 768px) {
-    .navList {
-        display: flex;
+    .navList ul {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    .navList ul {
+        /* navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar) */
+        position: absolute;
+        top: 60px;
+        left: 0;
+        /* stacks the li tags vertically  */
+        flex-direction: column;
+        /* makes menu span full height and width */
+        width: 100%;
+        height: calc(100vh - 77px);
+        background-color: white;
+        border-top: 1px solid black;
+    }
+    .navList li {
+        /* centers link text and strips off margin */
+        text-align: center;
         margin: 0;
     }
-    .nav-item a {
-        font-size: 12px;
+    .navList li a {
+        color: black;
+        /* increases the surface area of the anchor tag to span the full width of the menu */
+        width: 100%;
+        padding: 1.5rem 0;
     }
-    .navList #farai {
-        font-size: 15px;
+    .navList li:hover {
+        background-color: #eee;
+    }
+    .navList.expanded ul {
+        margin: 0;
+        display: block;
+        color: white;
+        background-color: #192335;
+        height: 1px;
+        position: absolute;
+        z-index: 1;
     }
 }
