@@ -18,7 +18,7 @@
     animation-name: spincube;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    animation-duration: 10s;
+    animation-duration: 15s;
     transform-style: preserve-3d;
     transform-origin: 100px 100px 0;
     /* margin-left: calc(10% - 100px); */
