@@ -29,7 +29,7 @@ export default function Carousel({ images }) {
         <div className=" sectionContainer">
             <div class="sectionhead">
 
-                <h2><span>MORE </span>PROJECTS</h2>
+                <h2><span>Miscellaneous </span>Projects</h2>
             </div>
             <div
                 className="carousel"
@@ -60,7 +60,7 @@ export default function Carousel({ images }) {
                                     <div className="over">{image.title}</div>
                                     <div className="links">
                                         <button class="glow-on-hover" ><a href={image.live} className="liveLink" target="_blank" rel="noopener noreferrer">Live</a></button>
-                                        <button class="glow-on-hover" ><a href={image} className="repoLink" target="_blank" rel="noopener noreferrer">Repo</a></button>
+                                        <button class="glow-on-hover" ><a href={image.repo} className="repoLink" target="_blank" rel="noopener noreferrer">Repo</a></button>
                                     </div>
                                 </div>
                             </div>
