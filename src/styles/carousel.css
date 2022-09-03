@@ -1,8 +1,8 @@
 .carousel {
     display: flex;
-    height: 400px;
+    height: 500px;
     width: 100%;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto 50px;
 }
 
@@ -45,30 +45,73 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
-    padding: 20px 30px;
     align-items: flex-end;
     font-weight: 600;
+    color: white;
+    font-size: 30px;
+}
+
+.card_overlay:hover {
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .card_overlay .links-overlay {
     display: flex;
 }
 
-.card_overlay a {
-    font-size: 1.1rem;
-    margin-right: 20px;
-    color: whitesmoke;
-    font-weight: 600;
-    text-decoration: none;
-    background-color: #72A0C1;
-    padding: 5px 10px;
-    border-radius: 10px;
+.card_overlay .over {
+    font-size: 20px;
+    background-color: #0F1624;
+    padding: 5px 15px;
+    border-top-right-radius: 80px 80px;
+    box-shadow: 0 0 6px 3px #fff, /* inner white */
+    0 0 3px 1px rgb(81, 112, 145), /* middle magenta */
+    0 0 3px 3px #0ff;
+    /* outer cyan */
 }
 
-.card_overlay .liveLink {
-    /* width: 100%; */
-    margin-left: 450px;
-    justify-content: end;
+.card_overlay a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.glow-on-hover {
+    width: 150px;
+    height: 40px;
+    border: none;
+    margin-right: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.1rem;
+    background-color: #0F1624;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.glow-on-hover:hover {
+    transition: all 0.4s ease-in-out;
+    color: rgba(255, 255, 255, 1);
+    background-color: #0F1624;
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 0 6px 3px #fff, /* inner white */
+    0 0 3px 1px rgb(81, 112, 145), /* middle magenta */
+    0 0 3px 3px #0ff;
+    transition-duration: 0.9s;
+    transform: scale(1.1);
+}
+
+.card_overlay .links {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
 }
 
 .card_title {

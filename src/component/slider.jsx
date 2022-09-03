@@ -26,7 +26,7 @@ export default function Carousel({ images }) {
     console.log(current);
 
     return (
-        <div>
+        <div className=" sectionContainer">
             <div class="sectionhead">
 
                 <h2><span>MORE </span>PROJECTS</h2>
@@ -57,12 +57,11 @@ export default function Carousel({ images }) {
                                 <img className="card_image" src={image.image} alt="" />
                                 <div className="card_overlay">
 
-                                    {/* <div class="links-overlay"> */}
-                                    <p className="card_title">{image.title}
-
-                                        <a href={image.live} className="liveLink" target="_blank" rel="noopener noreferrer">Live</a>
-                                        <a href={image} className="repoLink" target="_blank" rel="noopener noreferrer">Repo</a>
-                                    </p>{/* </div> */}
+                                    <div className="over">{image.title}</div>
+                                    <div className="links">
+                                        <button class="glow-on-hover" ><a href={image.live} className="liveLink" target="_blank" rel="noopener noreferrer">Live</a></button>
+                                        <button class="glow-on-hover" ><a href={image} className="repoLink" target="_blank" rel="noopener noreferrer">Repo</a></button>
+                                    </div>
                                 </div>
                             </div>
                         );

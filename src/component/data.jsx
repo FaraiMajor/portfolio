@@ -17,10 +17,10 @@ export const data = [{
     repo: "https://github.com/FaraiMajor/calculator",
 },
 {
-    image: "/images/bank.png",
-    title: "Bank of React",
-    live: "",
-    repo: "",
+    image: "/images/grid.png",
+    title: "React Grid",
+    live: "https://hyeranpark99.github.io/Group7_Assignment8/",
+    repo: "https://github.com/FaraiMajor/react-grid",
 },
 {
     image: "/images/rps.png",
