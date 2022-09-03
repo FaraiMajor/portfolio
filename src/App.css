@@ -40,3 +40,10 @@ ReactSwitch {
 #dark .switch label {
     color: white;
 }
+
+.sliderimg {
+    margin: 0 300px;
+    width: 60%;
+    height: 400px;
+    object-fit: cover
+}

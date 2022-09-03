@@ -7,6 +7,7 @@ import Resume from './component/resume';
 import Projects from './component/projects';
 import Skills from './component/skills';
 import Main from './component/hero';
+import Carousel from './component/carousel';
 import './App.css';
 import { createContext, useState } from "react";
 import ReactSwitch from "react-switch";
@@ -35,7 +36,7 @@ function App() {
         <About />
         <Skills />
         <Projects />
-        {/* <Resume /> */}
+        <Carousel />
         <Contact />
         <Footer />
       </div>
