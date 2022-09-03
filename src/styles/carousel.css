@@ -1,6 +1,6 @@
 .carousel {
     display: flex;
-    height: 500px;
+    height: 450px;
     width: 100%;
     max-width: 900px;
     margin: 0 auto 50px;
@@ -48,7 +48,7 @@
     align-items: flex-end;
     font-weight: 600;
     color: white;
-    font-size: 30px;
+    font-size: 1.3rem;
 }
 
 .card_overlay:hover {
@@ -56,14 +56,11 @@
     cursor: pointer;
 }
 
-.card_overlay .links-overlay {
-    display: flex;
-}
-
 .card_overlay .over {
-    font-size: 20px;
+    white-space: nowrap;
+    text-transform: uppercase;
     background-color: #0F1624;
-    padding: 5px 15px;
+    padding: 10px 20px;
     border-top-right-radius: 80px 80px;
     box-shadow: 0 0 6px 3px #fff, /* inner white */
     0 0 3px 1px rgb(81, 112, 145), /* middle magenta */
@@ -78,6 +75,7 @@
 
 .glow-on-hover {
     width: 150px;
+    margin-bottom: 5px;
     height: 40px;
     border: none;
     margin-right: 10px;
@@ -89,6 +87,10 @@
     text-transform: uppercase;
     text-decoration: none;
     border-radius: 30px;
+    box-shadow: 0 0 6px 3px #fff, /* inner white */
+    0 0 3px 1px rgb(81, 112, 145), /* middle magenta */
+    0 0 3px 3px #0ff;
+    /* outer cyan */
 }
 
 .glow-on-hover:hover {
@@ -111,7 +113,31 @@
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    padding-right: 20px;
+}
+
+@media (max-width: 768px) {
+    .card_overlay .over {
+        white-space: normal;
+        font-size: 15px;
+    }
+    .card_overlay .links {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .glow-on-hover a {
+        font-size: 15px;
+    }
+    .links button {
+        width: 100px;
+        height: 30px;
+        margin-top: 3px;
+    }
+    .card_image {
+        width: 100%;
+        object-fit: cover;
+    }
 }
 
 .card_title {
