@@ -28,4 +28,10 @@ export const data = [{
     live: "https://faraimajor.github.io/rock-paper-scissors/",
     repo: "https://github.com/FaraiMajor/rock-paper-scissors",
 },
+{
+    image: "/images/gif.png",
+    title: "Giphy Search",
+    live: "https://lkhalid0095.github.io/Giphy_API/",
+    repo: "https://github.com/FaraiMajor/Giphy_API"
+}
 ];
