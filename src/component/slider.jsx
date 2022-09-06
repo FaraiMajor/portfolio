@@ -54,9 +54,9 @@ export default function Carousel({ images }) {
                                         : "carousel_card"
                                 }
                             >
-                                <img className="card_image" src={image.image} alt="" />
-                                <div className="card_overlay">
 
+                                <img className="card_image" src={image.image} />
+                                <div className="card_overlay">
                                     <div className="over">{image.title}</div>
                                     <div className="links">
                                         <button class="glow-on-hover" ><a href={image.live} className="liveLink" target="_blank" rel="noopener noreferrer">Live</a></button>

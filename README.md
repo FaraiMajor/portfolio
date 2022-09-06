@@ -1,2 +1,2 @@
-# My Portfolio Website
+# Portfolio Website
 ## [Live Site](https://faraimajor.github.io/portfolio/)
