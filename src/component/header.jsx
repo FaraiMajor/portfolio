@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from 'react-scroll';
 import "../styles/header.css"
 
 export default function Header() {
@@ -10,7 +11,6 @@ export default function Header() {
             <button className="hamburger" onClick={() => {
                 setIsNavExpanded(!isNavExpanded);
             }}>
-                {/* icon from heroicons.com */}
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-5 w-5"
@@ -29,20 +29,20 @@ export default function Header() {
             }>
                 <ul>
                     <li className="nav-item">
-                        <a href="#about">About</a>
+                        <Link className="link" to="about" spy={true} smooth={true} offset={-10} duration={800} >About</Link>
                     </li>
                     <li className="nav-item">
-                        <a href="#skills">Skills</a>
+                        <Link className="link" to="skills" spy={true} smooth={true} offset={-10} duration={800} >Skills</Link>
                     </li>
                     <li className="nav-item">
-                        <a href="#projects">Projects</a>
+                        <Link className="link" to="projects" spy={true} smooth={true} offset={-10} duration={800} >Projects</Link>
                     </li>
                     <li className="nav-item">
-                        <a href="#contact">Contact</a>
+                        <Link className="link" to="contact" spy={true} smooth={true} offset={-10} duration={800}>Contact</Link>
                     </li>
                 </ul>
             </div>
-        </nav>
+        </nav >
 
     )
 }

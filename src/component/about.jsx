@@ -6,7 +6,7 @@ export default function About() {
         // header
         <div>
             {/* about section */}
-            <section class="aboutSection" id="about">
+            <section class="aboutSection" id="about" className="about">
                 <div class="sectionHead">
 
                     <h2> <span>BIT</span> ABOUT ME</h2>

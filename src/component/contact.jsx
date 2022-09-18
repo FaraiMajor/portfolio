@@ -19,9 +19,9 @@ export default function Contact() {
         e.target.reset();
     };
     return (
-        <div id='contact'>
-            <section class="contactSection" >
-                <div class="sectionHead">
+        <div >
+            <section class="contactSection" id='contact'>
+                <div className="sectionHead">
 
                     <h2><span>MY</span> CONTACT</h2>
                 </div>
