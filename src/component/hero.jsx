@@ -3,13 +3,14 @@ import {
 
     faCss3,
     faGitAlt,
-    faHtml5,
     faJsSquare,
     faNode,
     faReact,
+    faPython,
 } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../styles/hero.css';
+import py from '../assets/python.svg';
 
 export default function Main() {
     return (
@@ -22,7 +23,7 @@ export default function Main() {
                         <FontAwesomeIcon icon={faNode} color='rgba(104, 160, 99)' />
                     </div>
                     <div className="face2">
-                        <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+                        <img src={py} width="180px" />
                     </div>
                     <div className="face3">
                         <FontAwesomeIcon icon={faCss3} color="#28A4D9" />

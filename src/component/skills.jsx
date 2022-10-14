@@ -4,6 +4,7 @@ import {
     faHtml5,
 } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import py from '../assets/python.svg'
 
 import '../styles/skills.css'
 
@@ -21,6 +22,12 @@ export default function Skills() {
                         <div class="itemContainer">
                             <i class="lni lni-react"></i>
                             <p>React</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="itemContainer">
+                            <img src={py} width="25px" />
+                            <p>Python</p>
                         </div>
                     </li>
                     <li>
