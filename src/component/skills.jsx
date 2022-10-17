@@ -93,12 +93,6 @@ export default function Skills() {
                             <p>Dev</p>
                         </div>
                     </li>
-                    <li>
-                        <div class="itemContainer">
-                            <i class="lni lni-discord"></i>
-                            <p>Discord</p>
-                        </div>
-                    </li>
                 </ul>
             </div>
         </section>
