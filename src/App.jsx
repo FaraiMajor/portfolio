@@ -36,7 +36,7 @@ function App() {
         <About />
         <Skills />
         <Projects />
-        <Slider images={data} />
+        <Slider data={data} />
         <Contact />
         <Footer />
       </div>

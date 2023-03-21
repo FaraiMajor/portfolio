@@ -1,8 +1,8 @@
 export const data = [{
-    image: "/images/dashboard.png",
-    title: "Dashboard",
-    live: "https://faraimajor.github.io/admin-dashboard/",
-    repo: "https://github.com/FaraiMajor/admin-dashboard",
+    image: "/images/notes.png",
+    title: "Notes App",
+    live: "https://faraimajor.github.io/notes_app/",
+    repo: "https://github.com/FaraiMajor/notes_app",
 },
 {
     image: "/images/etch.png",

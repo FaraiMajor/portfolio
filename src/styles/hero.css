@@ -102,7 +102,8 @@
 /* cube spinner css ends */
 
 .aboutIntro {
-    /* margin-left: 50px; */
+    display: flex;
+    flex-direction: column;
 }
 
 .greeting {
@@ -228,15 +229,50 @@
     }
 }
 
-#dark .myname {
-    color: #467ca3;
+
+/* rotate name around */
+
+.rotate span {
+    font-size: 5rem;
+    color: #749239;
+    display: inline-flex;
+    animation: rotate 3s infinite;
+}
+
+@keyframes rotate {
+    0%,
+    75% {
+        transform: rotateY(360deg);
+    }
+}
+
+.nine span:nth-of-type(1) {
+    animation-delay: 0.2s;
+}
+
+.nine span:nth-of-type(2) {
+    animation-delay: 0.4s;
+}
+
+.nine span:nth-of-type(3) {
+    animation-delay: 0.6s;
+}
+
+.nine span:nth-of-type(4) {
+    animation-delay: 0.8s;
+}
+
+.nine span:nth-of-type(5) {
+    animation-delay: 1s;
+}
+
+.nine span:nth-of-type(6) {
+    animation-delay: 1.2s;
 }
 
 .myname {
     text-transform: uppercase;
     font-family: verdana;
-    padding: 0 0 10px;
-    font-size: 5em;
     font-weight: 700;
     color: #72A0C1;
     text-shadow: 1px 1px 1px #121010;
@@ -244,4 +280,5 @@
 
 #dark .myname {
     text-shadow: 1px 1px 1px whitesmoke;
+    color: #467ca3;
 }

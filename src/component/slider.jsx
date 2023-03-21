@@ -3,10 +3,10 @@ import { useEffect } from "react";
 import { useState } from "react";
 import "../styles/carousel.css"
 
-export default function Carousel({ images }) {
+export default function Carousel({ data }) {
     const [current, setCurrent] = useState(0);
     const [autoPlay, setAutoPlay] = useState(true);
-    let timeOut = null;
+    let timeOut = "";
 
     useEffect(() => {
         timeOut =
@@ -17,11 +17,11 @@ export default function Carousel({ images }) {
     });
 
     const slideRight = () => {
-        setCurrent(current === images.length - 1 ? 0 : current + 1);
+        setCurrent(current === data.length - 1 ? 0 : current + 1);
     };
 
     const slideLeft = () => {
-        setCurrent(current === 0 ? images.length - 1 : current - 1);
+        setCurrent(current === 0 ? data.length - 1 : current - 1);
     };
     console.log(current);
 
@@ -42,7 +42,7 @@ export default function Carousel({ images }) {
                 }}
             >
                 <div className="carousel_wrapper">
-                    {images.map((image, index) => {
+                    {data.map((infor, index) => {
                         return (
                             /* (condition) ? true : false */
 
@@ -55,12 +55,12 @@ export default function Carousel({ images }) {
                                 }
                             >
 
-                                <img className="card_image" src={image.image} />
+                                <img className="card_infor" src={infor.image} />
                                 <div className="card_overlay">
-                                    <div className="over">{image.title}</div>
+                                    <div className="over">{infor.title}</div>
                                     <div className="links">
-                                        <button class="glow-on-hover" ><a href={image.live} className="liveLink" target="_blank" rel="noopener noreferrer">Live</a></button>
-                                        <button class="glow-on-hover" ><a href={image.repo} className="repoLink" target="_blank" rel="noopener noreferrer">Repo</a></button>
+                                        <button class="glow-on-hover" ><a href={infor.live} className="liveLink" target="_blank" rel="noopener noreferrer">Live</a></button>
+                                        <button class="glow-on-hover" ><a href={infor.repo} className="repoLink" target="_blank" rel="noopener noreferrer">Repo</a></button>
                                     </div>
                                 </div>
                             </div>
@@ -73,12 +73,12 @@ export default function Carousel({ images }) {
                         &rsaquo;
                     </div>
                     <div className="carousel_pagination">
-                        {images.map((_, index) => {
+                        {data.map((_, index) => {
                             return (
                                 <div
                                     key={index}
                                     className={
-                                        index == current
+                                        index === current
                                             ? "pagination_dot pagination_dot-active"
                                             : "pagination_dot"
                                     }

@@ -43,7 +43,17 @@ export default function Main() {
             <div className="aboutIntro">
                 <div className="textArea">
                     <p className="greeting">HI THERE! I'M</p>
-                    <h1 className="myname">FARAI</h1>
+                    <h1 className="myname">
+                        <div className="wrapper nine">
+                            <h3 className="rotate">
+                                <span>F</span>
+                                <span>A</span>
+                                <span>R</span>
+                                <span>A</span>
+                                <span>I</span>
+                            </h3>
+                        </div>
+                    </h1>
                     <p className="statement">I write code</p>
                     <p className="quote"> “Make it work, make it right, make it fast.” – Kent Beck</p>
                 </div>

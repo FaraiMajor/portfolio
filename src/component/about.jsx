@@ -12,14 +12,15 @@ export default function About() {
                     <h2> <span>BIT</span> ABOUT ME</h2>
                 </div>
                 <div className="aboutContainer sectionContainer">
-                    <p>Software Developer and lifelong technology enthusiast,
-                        I am a current senior and Tech Talent Pipeline resident at Brooklyn College pursuing a
-                        Bachelor's degree in Information Systems. I graduated from Queensborough Community College
-                        with an Associate of Science. I was selected to become a resident in Brooklyn College's Tech Talent Pipeline Program.
-                        In this residency, I received the opportunity to work on various group projects using
-                        Javascript, HTML5, CSS, React.js, Express.js, Node.js, Sequelize, PostgreSQL, Git, and GitHub.
-                        I am passionate about coding and solving problems through code, and I am excited to work
-                        alongside other amazing programmers and learn so much more! </p>
+                    <p>Hello, my name is Farai Mutukumira. I am a recent graduate of Brooklyn College, where
+                        I earned my Bachelor's degree in Information Systems. I have a strong passion for
+                        technology and software development, and I'm always looking for ways to improve my skills
+                        and stay up-to-date with the latest trends in the industry. I completed the
+                        NYC Tech Talent Pipeline Web Development Residency program, where I learned and
+                        developed full-stack web applications using various programming languages such as
+                        Node.js, Express.js, React.js, and JavaScript. During the program, I participated
+                        in numerous projects implementing my learnings, and developed skills. In my spare time, I enjoy working on personal projects, such
+                        as developing games and social media apps, to further sharpen my skills. </p>
                 </div>
             </section>
         </div>
