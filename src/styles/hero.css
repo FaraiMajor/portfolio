@@ -1,5 +1,5 @@
 #mainEl {
-    height: 95vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,21 +29,19 @@
     z-index: -1;
     width: 200px;
     height: 200px;
-    border: 1px solid #ccc;
+    border: 0px solid #ccc;
     padding: 50px;
-    background: rgba(245, 245, 245, 0.4);
+    /* background: rgba(245, 245, 245, 0.4); */
     text-align: center;
     font-size: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 20px 0px lightyellow;
 }
 
 #dark .cubespinner div {
     background: transparent;
-    border: 1px whitesmoke solid;
-    box-shadow: 0 0 20px 0px rgb(59, 64, 77);
+    border: 1px #05386b solid;
 }
 
 .cubespinner .face1 {
@@ -77,22 +75,28 @@
 }
 
 @keyframes spincube {
+
     from,
     to {
         transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
     }
+
     16% {
         transform: rotateY(-90deg);
     }
+
     33% {
         transform: rotateY(-90deg) rotateZ(90deg);
     }
+
     50% {
         transform: rotateY(-180deg) rotateZ(90deg);
     }
+
     66% {
         transform: rotateY(-270deg) rotateX(90deg);
     }
+
     83% {
         transform: rotateX(90deg);
     }
@@ -112,7 +116,7 @@
 }
 
 #dark .greeting {
-    color: whitesmoke;
+    color: #05386b;
 }
 
 .textArea {
@@ -124,7 +128,7 @@
 }
 
 #dark .quote {
-    color: whitesmoke;
+    color: #05386b;
 }
 
 .statement {
@@ -132,46 +136,21 @@
 }
 
 #dark .statement {
-    color: whitesmoke;
+    color: #05386b;
 }
 
-.socialsResume li {
-    list-style-type: none;
-    display: inline;
-    margin-left: -40px;
-    margin-right: 60px;
+.resume-item {
+    margin-top: 10px;
 }
 
-.socialsResume .lni:hover {
-    color: white;
-    padding: 5px;
-    border-radius: 10px;
-    background-color: #72A0C1;
-    transition: all ease-in-out;
-    transition-duration: 1s;
-    transform: scale(1.1);
-}
-
-.lni-linkedin-original {
-    color: rgba(0, 97, 146);
-}
-
-.lni-github-original {
-    color: black
-}
-
-#dark .lni-github-original {
-    color: white;
-}
-
-.lni-instagram-original {
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    -webkit-background-clip: text;
-    /* Also define standard property for compatibility */
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    /* font-size: 200px; */
-    /* change this to change the size*/
+.resume-item a {
+    padding: 10px;
+    background-color: #05386b;
+    color: #f7f7f8;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: whitersnoke;
+    border-radius: 5px;
 }
 
 @media (max-width: 768px) {
@@ -181,38 +160,47 @@
         justify-content: center;
         align-items: center;
     }
+
     .aboutIntro {
         /* margin-top: 30%; */
         width: 90%;
     }
+
     .stage-cube-cont {
         margin-top: 20%;
     }
+
     .cubespinner div {
         background-color: transparent;
         padding: 0;
         font-size: 100px;
     }
+
     .cubespinner .face1 {
         transform: translateZ(100px);
         /* color: #dd0031; */
     }
+
     .cubespinner .face2 {
         transform: rotateY(90deg) translateZ(100px);
         /* color: #f06529; */
     }
+
     .cubespinner .face3 {
         transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
         /* color: #28a4d9; */
     }
+
     .cubespinner .face4 {
         transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
         /* color: #5ed4f4; */
     }
+
     .cubespinner .face5 {
         transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
         /* color: #efd81d; */
     }
+
     .cubespinner .face6 {
         transform: rotateX(-90deg) translateZ(100px);
         /* color: #ec4d28; */
@@ -224,6 +212,7 @@
         display: flex;
         flex-direction: column;
     }
+
     .stage-cube-cont {
         margin-bottom: 20%;
     }
@@ -233,13 +222,14 @@
 /* rotate name around */
 
 .rotate span {
+    color: #EDF5E1;
     font-size: 5rem;
-    color: #749239;
     display: inline-flex;
     animation: rotate 3s infinite;
 }
 
 @keyframes rotate {
+
     0%,
     75% {
         transform: rotateY(360deg);
@@ -274,11 +264,5 @@
     text-transform: uppercase;
     font-family: verdana;
     font-weight: 700;
-    color: #72A0C1;
-    text-shadow: 1px 1px 1px #121010;
-}
-
-#dark .myname {
-    text-shadow: 1px 1px 1px whitesmoke;
-    color: #467ca3;
+    text-shadow: 1px 1px 1px #05386b;
 }

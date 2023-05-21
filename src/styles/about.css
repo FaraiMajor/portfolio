@@ -1,11 +1,21 @@
     .aboutContainer p {
         line-height: 1.5;
     }
-    
+
     #dark .aboutContainer p {
         color: whitesmoke;
     }
-    
+
+    span {
+        font-size: 2.2rem;
+        color: #05386b;
+        font-weight: 900;
+    }
+
+    /* #dark span {
+        color: #05386b;
+    } */
+
     @media (max-width: 767px) {
         .aboutContainer {
             padding: 0 10px;

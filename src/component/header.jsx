@@ -8,6 +8,21 @@ export default function Header() {
     return (
         <nav className="navBar" id='home'>
             <a href="#home" id='farai'>FARAI</a>
+
+            <div className="socialsResume">
+
+                <ul className="socialsList">
+                    <li>
+                        <a href="https://www.linkedin.com/in/faraimutukumira/" target="_blank" rel="noopener noreferrer"><i className="lni lni-linkedin-original" aria-label="Link to Farai's LinkedIn page."></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/FaraiMajor" target="_blank" rel="noopener noreferrer"><i className="lni lni-github-original" aria-label="Link to Farai's GitHub page."></i></a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/faraimajor" target="_blank" rel="noopener noreferrer"><i className="lni lni-instagram-original" aria-label="Link to Farai's Instagram profile."></i></a>
+                    </li>
+                </ul>
+            </div>
             <button className="hamburger" onClick={() => {
                 setIsNavExpanded(!isNavExpanded);
             }}>
@@ -40,9 +55,9 @@ export default function Header() {
                     <li className="nav-item">
                         <Link className="link" to="contact" spy={true} smooth={true} offset={-10} duration={500}>Contact</Link>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <a href="https://faraimajor.github.io/Farai-cisc3610/Labs/Resume/index.html" target="blank" rel="noopener noreferrer">Resume</a>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         </nav >

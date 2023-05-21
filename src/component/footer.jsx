@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <div>
             <footer>
-                <p><small>©2022 Farai Mutukumira</small></p>
+                <p><small>©2023 Farai Mutukumira</small></p>
             </footer>
         </div>
     )

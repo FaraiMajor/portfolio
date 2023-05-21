@@ -2,6 +2,7 @@ import React from "react";
 import {
     faCss3,
     faHtml5,
+    faNodeJs
 } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import py from '../assets/python.svg'
@@ -32,7 +33,8 @@ export default function Skills() {
                     </li>
                     <li>
                         <div class="itemContainer">
-                            <i class="lni lni-nodejs-alt"></i>
+                            {/* <i class="lni lni-nodejs-alt"></i> */}
+                            <FontAwesomeIcon icon={faNodeJs} color="#68A063" fontSize={30} />
                             <p>Node</p>
                         </div>
                     </li>

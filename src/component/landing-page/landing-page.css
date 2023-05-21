@@ -1,0 +1,223 @@
+.carousel {
+    display: flex;
+    height: 550px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto 50px;
+}
+
+.carousel_wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel_card {
+    display: flex;
+    flex: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.8);
+    transition: 0.5s ease-in-out;
+}
+
+.carousel_card-active {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: visible;
+}
+
+.card_image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card_overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: flex-end;
+    font-weight: 600;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.card_overlay:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.card_overlay .over {
+    white-space: nowrap;
+    text-transform: uppercase;
+    background-color: #0F1624;
+    padding: 10px 20px;
+    border-top-right-radius: 80px 80px;
+    box-shadow: 0 0 6px 3px #fff,
+        /* inner white */
+        0 0 3px 1px rgb(81, 112, 145),
+        /* middle magenta */
+        0 0 3px 3px #0ff;
+    /* outer cyan */
+}
+
+.card_overlay a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.glow-on-hover {
+    width: 150px;
+    margin-bottom: 5px;
+    height: 40px;
+    border: none;
+    margin-right: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.1rem;
+    background-color: #0F1624;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 30px;
+    box-shadow: 0 0 6px 3px #fff,
+        /* inner white */
+        0 0 3px 1px rgb(81, 112, 145),
+        /* middle magenta */
+        0 0 3px 3px #0ff;
+    /* outer cyan */
+}
+
+.glow-on-hover:hover {
+    transition: all 0.4s ease-in-out;
+    color: rgba(255, 255, 255, 1);
+    background-color: #0F1624;
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 0 6px 3px #fff,
+        /* inner white */
+        0 0 3px 1px rgb(81, 112, 145),
+        /* middle magenta */
+        0 0 3px 3px #0ff;
+    transition-duration: 0.9s;
+    transform: scale(1.1);
+}
+
+.card_overlay .links {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+    .card_overlay .over {
+        white-space: normal;
+        font-size: 15px;
+    }
+
+    .card_overlay .links {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .glow-on-hover a {
+        font-size: 15px;
+    }
+
+    .links button {
+        width: 100px;
+        height: 30px;
+        margin-top: 3px;
+    }
+
+    .card_image {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.card_title {
+    color: white;
+    font-size: 30px;
+}
+
+.carousel_arrow_left,
+.carousel_arrow_right {
+    position: absolute;
+    font-size: 40px;
+    top: 50%;
+    transform: translate(0, -50%);
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+
+.carousel_arrow_left {
+    left: 15px;
+}
+
+.carousel_arrow_right {
+    right: 15px;
+}
+
+.carousel_pagination {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.pagination_dot {
+    height: 10px;
+    width: 10px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.pagination_dot:hover {
+    transform: scale(1.2);
+}
+
+.pagination_dot-active {
+    background-color: steelblue;
+}
+
+.sectionhead h2 {
+    text-align: center;
+    margin: 0 0 20px;
+    font-size: 1.3rem;
+    line-height: 1rem;
+    /* letter-spacing: 0.rem; */
+}
+
+.sectionhead span {
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+
+#dark .sectionhead {
+    color: white;
+}
