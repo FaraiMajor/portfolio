@@ -8,7 +8,6 @@ export default function Header() {
     return (
         <nav className="navBar" id='home'>
             <a href="#home" id='farai'>FARAI</a>
-
             <div className="socialsResume">
 
                 <ul className="socialsList">
@@ -55,9 +54,9 @@ export default function Header() {
                     <li className="nav-item">
                         <Link className="link" to="contact" spy={true} smooth={true} offset={-10} duration={500}>Contact</Link>
                     </li>
-                    {/* <li className="nav-item">
+                    <li className="nav-item">
                         <a href="https://faraimajor.github.io/Farai-cisc3610/Labs/Resume/index.html" target="blank" rel="noopener noreferrer">Resume</a>
-                    </li> */}
+                    </li>
                 </ul>
             </div>
         </nav >

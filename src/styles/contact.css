@@ -29,8 +29,9 @@
     margin-top: 10PX;
     padding: 10px 40px;
     font-size: 0.9rem;
-    background-color: #72A0C1;
+    background-color: #5CDB95;
     color: white;
+    font-weight: 600;
     border: none;
     cursor: pointer;
 }
