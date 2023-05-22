@@ -17,21 +17,7 @@
     margin-top: 0;
 }
 
-@media (max-width: 768px) {
-    .workBox {
-        display: block;
-        padding: 0;
-    }
 
-    .describeContainer {
-        margin-left: 0;
-        padding: 20px;
-    }
-
-    .imageContainer {
-        flex: none;
-    }
-}
 
 .imageContainer {
     flex: 0 0 350px;
@@ -90,6 +76,10 @@
     padding: 0 5px;
 }
 
+.describeContainer .techStack {
+    color: #edf5e1;
+}
+
 .describeContainer .projectLinks {
     margin-top: 50px;
 }
@@ -111,6 +101,22 @@
     transition: all ease-in-out;
     transition-duration: 0.9s;
     transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    .workBox {
+        display: block;
+        padding: 0;
+    }
+
+    .describeContainer {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .imageContainer {
+        flex: none;
+    }
 }
 
 @media (max-width: 990px) {

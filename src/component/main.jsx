@@ -8,6 +8,9 @@ import Skills from './skills';
 import Hero from './hero';
 import Slider from './slider';
 import { data } from "./data";
+
+import { motion } from 'framer-motion';
+
 import '../App.css';
 import { createContext, useState } from "react";
 import ReactSwitch from "react-switch";
@@ -24,23 +27,29 @@ export default function Main() {
     setTheme((curr) => (curr === "light" ? "dark" : "light"));
   };
   return (
-    <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      <div id={theme}>
-        <ScrollToTop smooth />
-
-        <Header />
-        <Hero />
-        {/* <div className="switch">
+    <motion.div
+      initial={{ scaleY: 0 }}
+      animate={{ scaleY: 1 }}
+      exit={{ scaleY: 0 }}
+      transition={{ duration: 1 }}
+    >
+      <ThemeContext.Provider value={{ theme, toggleTheme }}>
+        <div id={theme}>
+          <ScrollToTop smooth />
+          <Header />
+          <Hero />
+          {/* <div className="switch">
           <label> {theme === "light" ? "Light Mode" : "Dark Mode"}</label>
           <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
         </div> */}
-        <About />
-        <Skills />
-        <Projects />
-        {/* <Slider data={data} /> */}
-        <Contact />
-        <Footer />
-      </div>
-    </ThemeContext.Provider>
+          <About />
+          <Skills />
+          <Projects />
+          {/* <Slider data={data} /> */}
+          <Contact />
+          <Footer />
+        </div>
+      </ThemeContext.Provider>
+    </motion.div>
   );
 }

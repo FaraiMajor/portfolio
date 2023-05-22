@@ -32,7 +32,7 @@
 
 .socialsResume .lni:hover {
     color: white;
-    background-color: #72A0C1;
+    /* background-color: #72A0C1; */
     transition: all ease-in-out;
     transition-duration: 0.5s;
     transform: scale(1.1);

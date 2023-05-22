@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .image {
@@ -15,15 +16,6 @@
 
 .btn-el {
     display: none;
-}
-
-ul,
-ol {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
 }
 
 .btn {
@@ -45,7 +37,7 @@ a {
         height: 100%;
         border-radius: 100%;
         width: 100%;
-        box-shadow: 0 0 2px 2px #fff;
+        box-shadow: 0 0 10px 10px #fff;
         transition: 0.3s linear;
     }
 
@@ -70,8 +62,8 @@ a {
     &__text {
         top: 50%;
         transform: translateY(-50%);
-        font-family: "Nunito", sans-serif;
-        font-size: 2rem;
+        font-family: 'Luminari', fantasy;
+        font-size: 2.5rem;
         line-height: 1.5;
         white-space: nowrap;
         z-index: 2;
@@ -220,3 +212,5 @@ a {
         display: none;
     }
 }
+
+// ------------

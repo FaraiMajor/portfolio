@@ -1,9 +1,10 @@
     .aboutContainer p {
+        font-size: 1.1rem;
         line-height: 1.5;
     }
 
     #dark .aboutContainer p {
-        color: whitesmoke;
+        color: #c2c4be;
     }
 
     span {
