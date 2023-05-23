@@ -28,10 +28,18 @@ export default function Main() {
   };
   return (
     <motion.div
-      initial={{ scaleY: 0 }}
-      animate={{ scaleY: 1 }}
-      exit={{ scaleY: 0 }}
-      transition={{ duration: 1 }}
+      initial={{
+        width: "0%",
+      }}
+      animate={{
+        width: "100%",
+      }}
+      exit={{
+        width: "0%",
+      }}
+      transition={{
+        duration: 0.9,
+      }}
     >
       <ThemeContext.Provider value={{ theme, toggleTheme }}>
         <div id={theme}>

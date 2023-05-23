@@ -25,7 +25,7 @@ export default function Contact() {
     };
     return (
         <div >
-            <section class="contactSection" id='contact'>
+            <section className="contactSection" id='contact'>
                 <div className="sectionHead">
 
                     <h2><span>MY</span> CONTACT</h2>
@@ -34,7 +34,7 @@ export default function Contact() {
 
                     <div className='form-item'>
                         <h3>Get in Touch <FontAwesomeIcon icon={faEnvelope} /></h3>
-                        <div class="contactFormContainer">
+                        <div className="contactFormContainer">
                             <form id="contactForm" ref={form} onSubmit={sendEmail}>
                                 <label for="nameInput" className="srOnly"></label>
                                 <input type="text" id="nameInput" name="nameInput" className="nameInput" required placeholder="Your Name*" />

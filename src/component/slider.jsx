@@ -27,7 +27,7 @@ export default function Carousel({ data }) {
 
     return (
         <div className=" sectionContainer">
-            <div class="sectionhead">
+            <div className="sectionhead">
 
                 <h2><span>Miscellaneous </span>Projects</h2>
             </div>

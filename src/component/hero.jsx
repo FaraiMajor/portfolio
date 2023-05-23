@@ -63,20 +63,6 @@ export default function Main() {
                 <div className="resume-item">
                     <a href="https://faraimajor.github.io/Farai-cisc3610/Labs/Resume/index.html" target="blank" rel="noopener noreferrer">Resume <FontAwesomeIcon icon={faArrowUpRightFromSquare} color="#f7f7f8" /></a>
                 </div>
-                {/* <div className="socialsResume">
-
-                    <ul className="socialsList">
-                        <li>
-                            <a href="https://www.linkedin.com/in/faraimutukumira/" target="_blank" rel="noopener noreferrer"><i className="lni lni-linkedin-original" aria-label="Link to Farai's LinkedIn page."></i></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/FaraiMajor" target="_blank" rel="noopener noreferrer"><i className="lni lni-github-original" aria-label="Link to Farai's GitHub page."></i></a>
-                        </li>
-                        <li>
-                            <a href="https://instagram.com/faraimajor" target="_blank" rel="noopener noreferrer"><i className="lni lni-instagram-original" aria-label="Link to Farai's Instagram profile."></i></a>
-                        </li>
-                    </ul>
-                </div> */}
 
             </div>
 

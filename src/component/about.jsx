@@ -6,8 +6,8 @@ export default function About() {
         // header
         <div>
             {/* about section */}
-            <section class="aboutSection" id="about" className="about">
-                <div class="sectionHead">
+            <section className="aboutSection" id="about">
+                <div className="sectionHead">
 
                     <h2> <span>BIT</span> ABOUT ME</h2>
                 </div>
