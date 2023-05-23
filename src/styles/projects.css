@@ -5,31 +5,19 @@
     border-radius: 15px;
     box-shadow: 5px 14px 28px rgba(31, 53, 75, 0.09);
     transition: ease;
-    border: 0.5px solid whitesmoke;
+    background-color: #5cdb95;
 }
 
-#dark .workBox {
+/* #dark .workBox {
     box-shadow: 5px 14px 28px rgba(126, 136, 145, 0.09);
     border: 0.5px solid rgb(32, 39, 59);
-}
+} */
 
 .workBox:first-child {
     margin-top: 0;
 }
 
-@media (max-width: 768px) {
-    .workBox {
-        display: block;
-        padding: 0;
-    }
-    .describeContainer {
-        margin-left: 0;
-        padding: 20px;
-    }
-    .imageContainer {
-        flex: none;
-    }
-}
+
 
 .imageContainer {
     flex: 0 0 350px;
@@ -53,12 +41,13 @@
 }
 
 #dark .describeContainer {
-    color: whitesmoke;
+    color: #05386b;
 }
 
 .describeContainer ul {
     list-style: disc inside;
     font-size: 0.9rem;
+    font-weight: 600;
     line-height: 1.3;
     letter-spacing: 1px;
     margin-top: 20px;
@@ -81,11 +70,14 @@
 }
 
 .describeContainer span {
-    color: #72A0C1;
     font-size: 1rem;
     display: inline-block;
     margin: 0;
     padding: 0 5px;
+}
+
+.describeContainer .techStack {
+    color: #edf5e1;
 }
 
 .describeContainer .projectLinks {
@@ -99,26 +91,45 @@
     font-weight: 600;
     display: inline-block;
     text-decoration: none;
-    background-color: #72A0C1;
+    background-color: #05386b;
     padding: 5px 10px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .describeContainer .projectLinks a:hover {
-    background-color: #011421;
+    background-color: #1f3e5e;
     transition: all ease-in-out;
     transition-duration: 0.9s;
     transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    .workBox {
+        display: block;
+        padding: 0;
+    }
+
+    .describeContainer {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .imageContainer {
+        flex: none;
+    }
 }
 
 @media (max-width: 990px) {
     .workBox {
         display: flex;
         flex-direction: column;
+        border-radius: 0;
     }
+
     .describeContainer {
         margin-top: 0;
     }
+
     .imageContainer {
         flex: none;
     }

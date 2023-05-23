@@ -1,5 +1,8 @@
 import React from "react";
 import {
+    faArrowUpRightFromSquare,
+} from '@fortawesome/free-solid-svg-icons';
+import {
 
     faCss3,
     faGitAlt,
@@ -20,7 +23,7 @@ export default function Main() {
             <div className="stage-cube-cont">
                 <div className="cubespinner">
                     <div className="face1">
-                        <FontAwesomeIcon icon={faNode} color='rgba(104, 160, 99)' />
+                        <FontAwesomeIcon icon={faNode} color='rgb(205, 132, 49)' />
                     </div>
                     <div className="face2">
                         <img src={py} width="180px" />
@@ -46,30 +49,19 @@ export default function Main() {
                     <h1 className="myname">
                         <div className="wrapper nine">
                             <h3 className="rotate">
-                                <span>F</span>
-                                <span>A</span>
-                                <span>R</span>
-                                <span>A</span>
-                                <span>I</span>
+                                <span className="rot">F</span>
+                                <span className="rot">A</span>
+                                <span className="rot">R</span>
+                                <span className="rot">A</span>
+                                <span className="rot">I</span>
                             </h3>
                         </div>
                     </h1>
                     <p className="statement">I write code</p>
                     <p className="quote"> “Make it work, make it right, make it fast.” – Kent Beck</p>
                 </div>
-                <div class="socialsResume">
-
-                    <ul class="socialsList">
-                        <li>
-                            <a href="https://www.linkedin.com/in/faraimutukumira/" target="_blank" rel="noopener noreferrer"><i class="lni lni-linkedin-original" aria-label="Link to Farai's LinkedIn page."></i></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/FaraiMajor" target="_blank" rel="noopener noreferrer"><i class="lni lni-github-original" aria-label="Link to Farai's GitHub page."></i></a>
-                        </li>
-                        <li>
-                            <a href="https://instagram.com/faraimajor" target="_blank" rel="noopener noreferrer"><i class="lni lni-instagram-original" aria-label="Link to Farai's Instagram profile."></i></a>
-                        </li>
-                    </ul>
+                <div className="resume-item">
+                    <a href="https://faraimajor.github.io/Farai-cisc3610/Labs/Resume/index.html" target="blank" rel="noopener noreferrer">Resume <FontAwesomeIcon icon={faArrowUpRightFromSquare} color="#f7f7f8" /></a>
                 </div>
 
             </div>

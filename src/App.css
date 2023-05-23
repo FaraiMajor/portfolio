@@ -3,12 +3,12 @@
 }
 
 #dark {
-    background-color: #0F1624;
+    background-color: #5CDB95;
 }
 
 @media (prefers-color-scheme: dark) {
     #dark {
-        background-color: #0F1624;
+        background-color: #5CDB95;
     }
 }
 
