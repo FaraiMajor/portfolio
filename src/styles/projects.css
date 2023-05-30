@@ -20,6 +20,8 @@
 
 
 .imageContainer {
+    display: flex;
+    align-items: center;
     flex: 0 0 350px;
     border-radius: 10px;
     height: auto;
@@ -27,7 +29,10 @@
 
 .imageContainer img {
     width: 100%;
+    /* height: 70%; */
     border-radius: 10px;
+    align-items: center;
+    justify-content: center;
     border: 1px solid #ddd;
 }
 
