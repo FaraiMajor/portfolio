@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.fde886f5.css",
-    "main.js": "/static/js/main.a48da78d.js",
+    "main.css": "/static/css/main.5bc9f5e7.css",
+    "main.js": "/static/js/main.5f40bad8.js",
+    "static/media/veryrare.png": "/static/media/veryrare.ba8b447d28be55e4d45e.png",
     "static/media/memories.png": "/static/media/memories.1084f43972c6cbee60cf.png",
     "static/media/note-app.png": "/static/media/note-app.647cab881e5e9c7f8912.png",
     "static/media/weatherranger.png": "/static/media/weatherranger.912ccd249657c4a8587d.png",
-    "static/media/tenzies.png": "/static/media/tenzies.aae90de8293bdc1d044c.png",
     "static/media/farai.jpeg": "/static/media/farai.814d8865c6024292ec0e.jpeg",
     "index.html": "/index.html",
     "static/media/python.svg": "/static/media/python.a9940823bb9c964788cc35cd8bb46f6b.svg",
-    "main.fde886f5.css.map": "/static/css/main.fde886f5.css.map",
-    "main.a48da78d.js.map": "/static/js/main.a48da78d.js.map"
+    "main.5bc9f5e7.css.map": "/static/css/main.5bc9f5e7.css.map",
+    "main.5f40bad8.js.map": "/static/js/main.5f40bad8.js.map"
   },
   "entrypoints": [
-    "static/css/main.fde886f5.css",
-    "static/js/main.a48da78d.js"
+    "static/css/main.5bc9f5e7.css",
+    "static/js/main.5f40bad8.js"
   ]
 }
