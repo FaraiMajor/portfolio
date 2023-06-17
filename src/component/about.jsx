@@ -13,14 +13,14 @@ export default function About() {
                 </div>
                 <div className="aboutContainer sectionContainer">
                     <p>Hello, my name is Farai Mutukumira. I am a recent graduate of Brooklyn College, where
-                        I earned my Bachelor's degree in Information Systems. I have a strong passion for
-                        technology and software development, and I'm always looking for ways to improve my skills
-                        and stay up-to-date with the latest trends in the industry. I completed the
-                        NYC Tech Talent Pipeline Web Development Residency program, where I learned and
-                        developed full-stack web applications using various programming languages such as
-                        Node.js, Express.js, React.js, and JavaScript. During the program, I participated
-                        in numerous projects implementing my learnings, and developed skills. In my spare time, I enjoy working on personal projects, such
-                        as developing games and social media apps, to further sharpen my skills. </p>
+                        I earned my Bachelor's degree in Information Systems. I am a results-oriented and dedicated
+                        software engineer with a strong foundation in information systems and full-stack web
+                        development. Skilled in Java, Python, JavaScript, and various frameworks/libraries
+                        such as Node.js, Express.js, and React.js. Recognized for spearheading successful
+                        projects, including a WordPress website transition and the development of an e-commerce
+                        platform. Committed to delivering efficient and innovative solutions while maintaining
+                        a high level of code quality. Adept at collaborating with cross-functional teams and
+                        passionate about leveraging technology to drive positive user experiences. </p>
                 </div>
             </section>
         </div>
