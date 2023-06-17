@@ -2,7 +2,7 @@ import React from "react";
 import weather from '../assets/weatherranger.png';
 import memories from '../assets/memories.png';
 import noteapp from '../assets/note-app.png'
-import veryrare from '../assets/veryrare.png'
+import veryrare from '../assets/veryrare.gif'
 import "../styles/projects.css"
 
 export default function Projects() {
