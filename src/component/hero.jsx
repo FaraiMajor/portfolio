@@ -61,7 +61,7 @@ export default function Main() {
                     <p className="quote"> “Make it work, make it right, make it fast.” – Kent Beck</p>
                 </div>
                 <div className="resume-item">
-                    <a href="https://faraimajor.github.io/Farai-cisc3610/Labs/Resume/index.html" target="blank" rel="noopener noreferrer">Resume <FontAwesomeIcon icon={faArrowUpRightFromSquare} color="#f7f7f8" /></a>
+                    <a href="https://docs.google.com/document/d/1w2bTLJhIpBZJ2uoFwsHMxuGXt6tS_DpvIk3iuUR1mlc/edit?usp=sharing" target="blank" rel="noopener noreferrer">Resume <FontAwesomeIcon icon={faArrowUpRightFromSquare} color="#f7f7f8" /></a>
                 </div>
 
             </div>
