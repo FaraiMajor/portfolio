@@ -1,23 +1,44 @@
-.workBox {
-    display: flex;
-    padding: 30px;
-    margin-top: 40px;
-    border-radius: 15px;
-    box-shadow: 5px 14px 28px rgba(31, 53, 75, 0.09);
-    transition: ease;
-    background-color: #5cdb95;
+.projectSection {
+    background-color: white;
+    /* z-index: 99; */
+    position: relative;
+    height: fit-content;
+    padding: 10px 0 0px;
+    width: 100%;
+    padding-bottom: 50px;
 }
 
-/* #dark .workBox {
-    box-shadow: 5px 14px 28px rgba(126, 136, 145, 0.09);
-    border: 0.5px solid rgb(32, 39, 59);
-} */
+.project {
+    color: black;
+    padding: 90px 0 30px 100px;
+    font-size: 1.6rem;
+    line-height: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.project span {
+    font-size: 2.5rem;
+    color: #FFD401;
+    font-weight: 900;
+}
+
+.workBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    transition: ease;
+    background-color: black;
+}
 
 .workBox:first-child {
     margin-top: 0;
 }
-
-
 
 .imageContainer {
     display: flex;
@@ -39,14 +60,11 @@
 .describeContainer {
     flex: 0 1 calc(100% - 350px);
     margin-left: 25px;
+    color: white;
 }
 
 .describeContainer h3 {
     letter-spacing: 1px;
-}
-
-#dark .describeContainer {
-    color: #05386b;
 }
 
 .describeContainer ul {
@@ -86,27 +104,77 @@
 }
 
 .describeContainer .projectLinks {
+    display: flex;
+    justify-content: center;
     margin-top: 50px;
 }
 
-.describeContainer .projectLinks a {
-    font-size: 1.1rem;
-    margin-right: 20px;
-    color: whitesmoke;
-    font-weight: 600;
-    display: inline-block;
-    text-decoration: none;
-    background-color: #05386b;
-    padding: 5px 10px;
+button {
     border-radius: 5px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.describeContainer .projectLinks a:hover {
-    background-color: #1f3e5e;
-    transition: all ease-in-out;
-    transition-duration: 0.9s;
-    transform: scale(1.2);
+button:after {
+    content: " ";
+    width: 0%;
+    height: 100%;
+    background: #FFD401;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    right: 0;
 }
+
+button:hover::after {
+    right: auto;
+    left: 0;
+    width: 100%;
+}
+
+button a {
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 100%;
+    padding: 18px 25px;
+    color: black;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+    z-index: 20;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover a {
+    color: #183153;
+    animation: scaleUp 0.3s ease-in-out;
+}
+
+button .icon {
+    font-size: 1.0rem;
+    margin: 0 5px;
+    font-weight: 900;
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.95);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
 
 @media (max-width: 768px) {
     .workBox {

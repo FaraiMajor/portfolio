@@ -13,7 +13,7 @@ function App() {
   return (
     <Routes location={location} key={location.key}>
       <Route path='/' component={App}>
-        <Route index element={<LandingPage />} />
+        <Route index element={<Main />} />
         <Route path="main" element={<Main />} />
       </Route>
     </Routes>

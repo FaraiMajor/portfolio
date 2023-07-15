@@ -1,15 +1,5 @@
-#light {
-    background-color: whitesmoke;
-}
-
-#dark {
-    background-color: #5CDB95;
-}
-
-@media (prefers-color-scheme: dark) {
-    #dark {
-        background-color: #5CDB95;
-    }
+/* .main {
+    background-color: rgb(225, 223, 223);
 }
 
 .switch {
@@ -33,10 +23,6 @@ ReactSwitch {
     margin: 10px;
 }
 
-#light .switch label {
+.main .switch label {
     color: black;
-}
-
-#dark .switch label {
-    color: white;
-}
+} */

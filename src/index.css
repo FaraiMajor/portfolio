@@ -4,65 +4,10 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     scroll-behavior: smooth;
-    background-color: #5CDB95;
+    background-color: rgb(23, 22, 22);
 }
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
-}
-
-@media (max-width: 768px) {
-    body {
-        width: 100%;
-        margin: 0;
-    }
-}
-
-.sectionContainer {
-    background-color: white;
-    border-radius: 15px;
-    padding: 50px;
-    margin: 0px 100px 100px;
-}
-
-#dark .sectionContainer {
-    background-color: #05386b;
-}
-
-@media (max-width: 768px) {
-    .sectionContainer {
-        -webkit-text-size-adjust: 100%;
-        padding: 0;
-        display: block;
-        font: inherit;
-        background-color: transparent;
-        margin: 0;
-        /* vertical-align: baseline; */
-    }
-
-    #dark .sectionContainer {
-        background-color: #05386b;
-        border-radius: 0;
-        /* margin-bottom: 20px; */
-    }
-
-    .sectionContainer {
-        margin-bottom: 50px;
-    }
-
-    .sectionHead h2 {
-        margin: 0;
-    }
-}
-
-.sectionHead h2 {
-    margin: 15px 0 30px 100px;
-    font-size: 1.6rem;
-    line-height: 1rem;
-    letter-spacing: 0.1rem;
-}
-
-#dark .sectionHead {
-    color: white;
 }

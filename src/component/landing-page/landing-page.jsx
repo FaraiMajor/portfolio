@@ -15,7 +15,7 @@ export default function LandingPage() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 2 }}
+            transition={{ duration: 1 }}
         >
             <div className="container">
                 <img className="image" src={farai} />
