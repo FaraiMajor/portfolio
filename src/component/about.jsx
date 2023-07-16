@@ -29,7 +29,7 @@ export default function About() {
                             passionate about leveraging technology to drive positive user experiences. </p>
                         <button>
                             <span>
-                                <a href="https://drive.google.com/file/d/1PIeMgRqX4FJMsrjayNzNWKS_1gBeQKfi/view?usp=drive_link" target="blank">
+                                <a href="https://www.linkedin.com/in/faraimutukumira/" target="blank">
                                     RESUME
                                     <FontAwesomeIcon icon={faArrowRight} color="black" className="icon" />
                                 </a>

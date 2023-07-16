@@ -116,7 +116,7 @@
 
     @media (max-width: 800px) {
         .aboutContainer {
-            top: 10%;
+            top: 13%;
             padding: 0;
             margin: 0;
             display: flex;
@@ -156,6 +156,10 @@
             font-size: 2rem;
             color: #FFD401;
             font-weight: 900;
+        }
+
+        .aboutContainer button {
+            margin-top: 30px;
         }
 
 

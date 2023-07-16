@@ -65,15 +65,12 @@
 }
 
 @media (max-width: 800px) {
-    .skillsSection {
-        height: 60vh;
-    }
 
     .skillsGrid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        row-gap: 10px;
-        column-gap: 10px;
+        row-gap: 20px;
+        column-gap: 20px;
         margin: 0;
         padding: 0;
     }
@@ -81,7 +78,7 @@
     .skillsContainer {
         position: absolute;
         display: flex;
-        top: 31%;
+        top: 35%;
         left: 1.5%;
         width: 100%;
         border: none;
@@ -95,7 +92,7 @@
 
     .skillsGrid li {
         list-style: none;
-        width: 50px;
+        width: 60px;
         background-color: #282517;
         /* border: 0.1px solid rgb(194, 191, 191, 0.4); */
         border-radius: 10px;
