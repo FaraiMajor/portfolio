@@ -72,26 +72,32 @@
     .skillsGrid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        row-gap: 5px;
-        column-gap: 5px;
+        row-gap: 10px;
+        column-gap: 10px;
         margin: 0;
         padding: 0;
     }
 
     .skillsContainer {
         position: absolute;
-        top: 25%;
+        display: flex;
+        top: 31%;
         left: 1.5%;
-        width: 80%;
+        width: 100%;
+        border: none;
         font-size: 1rem;
         margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center
     }
 
     .skillsGrid li {
         list-style: none;
         width: 50px;
         background-color: #282517;
-        border: 0.1px solid rgb(194, 191, 191, 0.4);
+        /* border: 0.1px solid rgb(194, 191, 191, 0.4); */
         border-radius: 10px;
     }
 

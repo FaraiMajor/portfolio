@@ -15,12 +15,11 @@
 
 #farai {
     text-decoration: none;
-    /* color: black; */
+    color: black;
     font-size: 1.5rem;
     margin-left: 1rem;
     font-weight: 600;
     padding-left: 40px;
-    color: #111;
 }
 
 .navList {
@@ -76,7 +75,19 @@
 }
 
 @media (max-width: 800px) {
+    #farai {
+        font-size: 1.2rem;
+        margin-left: 0rem;
+        font-weight: 600;
+        padding-left: 10px;
+    }
+
     .navList {
-        /* display: none; */
+        padding-right: 50px;
+    }
+
+    .navList li {
+        margin: 0;
+        font-size: 12px;
     }
 }

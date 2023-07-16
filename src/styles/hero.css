@@ -405,6 +405,15 @@ button .arrow {
         /* display: none; */
     }
 
+    button span {
+        text-align: center;
+        text-decoration: none;
+        width: 100%;
+        padding: 10px 15px;
+        color: black;
+        font-size: 1.1em;
+    }
+
     .aboutIntro {
         width: 90%;
         margin: 80px 0 0;
