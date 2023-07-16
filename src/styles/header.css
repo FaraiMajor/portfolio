@@ -13,15 +13,6 @@
     border-bottom: solid rgb(192, 190, 190) 0.1px;
 }
 
-.navBar {
-    background-color: white;
-    box-shadow: 0px 14px 28px rgba(175, 193, 208, 0.04);
-}
-
-#farai {
-    color: black;
-}
-
 #farai {
     text-decoration: none;
     /* color: black; */
@@ -29,6 +20,7 @@
     margin-left: 1rem;
     font-weight: 600;
     padding-left: 40px;
+    color: #111;
 }
 
 .navList {
@@ -81,4 +73,10 @@
 .nav-item:hover:after {
     width: 100%;
     left: 0;
+}
+
+@media (max-width: 800px) {
+    .navList {
+        /* display: none; */
+    }
 }

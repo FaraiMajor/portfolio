@@ -1,6 +1,6 @@
 import React from "react";
 import '../styles/about.css'
-import mypic from '../assets/farai.jpeg'
+import mypic from '../assets/faraivegas.png'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Zoom from 'react-reveal/Zoom';

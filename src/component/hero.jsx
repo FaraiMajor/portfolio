@@ -16,7 +16,6 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../styles/hero.css';
-import py from '../assets/python.svg';
 
 export default function Main() {
     const particlesInit = useCallback(async engine => {
@@ -128,8 +127,8 @@ export default function Main() {
                         <h2 className="into">
                             <span>I am into</span>
                             <div className="message">
-                                <div className="word1">Web Dev</div>
-                                <div className="word2">Creativity</div>
+                                <div className="word1">Technology</div>
+                                <div className="word2">Engineering</div>
                                 <div className="word3">Data Analytics</div>
                             </div>
                         </h2>
@@ -170,22 +169,22 @@ export default function Main() {
                 <div className="stage-cube-cont">
                     <div className="cubespinner">
                         <div className="face1">
-                            <FontAwesomeIcon icon={faNode} color='rgb(205, 132, 49)' />
+                            <FontAwesomeIcon icon={faNode} color='#black' />
                         </div>
                         <div className="face2">
-                            <img src={py} width="180px" />
+                            <FontAwesomeIcon icon={faPython} color="#black" />
                         </div>
                         <div className="face3">
-                            <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+                            <FontAwesomeIcon icon={faCss3} color="#black" />
                         </div>
                         <div className="face4">
-                            <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+                            <FontAwesomeIcon icon={faReact} color="#black" />
                         </div>
                         <div className="face5">
-                            <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+                            <FontAwesomeIcon icon={faJsSquare} color="#black" />
                         </div>
                         <div className="face6">
-                            <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+                            <FontAwesomeIcon icon={faGitAlt} color="#black" />
                         </div>
                     </div>
                 </div>

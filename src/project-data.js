@@ -2,7 +2,7 @@ const projectsData = [
     {
         image: require('./assets/veryrare.gif'),
         title: "VeryRare E-Commerce",
-        technologies: ["React", "Styled Components", "Firebase", "Stripe"],
+        technologies: ["React", "Styled Components", "Firebase", "Redux", "Stripe"],
         description: [
             "The website allows users to browse and purchase products securely.",
             "Firebase's authentication service enabled users to sign up, log in, and securely access their account information.",
@@ -27,7 +27,7 @@ const projectsData = [
     {
         image: require('./assets/note-app.png'),
         title: "Note App",
-        technologies: ["React", "CSS"],
+        technologies: ["React", "CSS", "LocalStorage"],
         description: [
             "React app to make notes",
             "Users can write, read, search, save, and delete notes",

@@ -2,7 +2,6 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom'
 import { useLocation } from "react-router-dom"
 
-import LandingPage from './component/landing-page/landing-page';
 import Main from './component/main';
 
 import './App.css';
