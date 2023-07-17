@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './header'
+import Navbar from './navbar';
 import About from './about';
 import Footer from './footer';
 import Contact from './contact';
@@ -28,7 +29,8 @@ export default function Main() {
     >
       <div className='main'>
         <ScrollToTop smooth />
-        <Header />
+        {/* <Header /> */}
+        <Navbar />
         <Hero />
         <About />
         <Skills />

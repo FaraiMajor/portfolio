@@ -1,6 +1,6 @@
 import {
     faCss3, faHtml5, faNodeJs, faPython, faReact, faJs, faSlack,
-    faGitAlt, faGithubAlt, faJava, faWordpressSimple, faNpm, faTypesc
+    faGitAlt, faGithubAlt, faJava, faWordpressSimple, faNpm
 } from '@fortawesome/free-brands-svg-icons';
 
 const skillsData = [

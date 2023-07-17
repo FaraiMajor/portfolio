@@ -15,7 +15,7 @@
     width: 90%;
     font-size: 1rem;
     width: 650px;
-    border: 0.2px solid rgb(194, 191, 191, 0.4);
+    /* border: 0.2px solid rgb(194, 191, 191, 0.4); */
     border-radius: 10px;
     padding: 30px;
     margin-left: auto;
@@ -28,29 +28,29 @@
     row-gap: 50px;
 }
 
-.skillsGrid li {
+.skillsGrid .list {
     list-style: none;
-    width: 100px;
+    width: 90px;
     align-items: center;
     text-align: center;
     background-color: #282517;
-    border: 0.1px solid rgb(194, 191, 191, 0.4);
     padding: 5px;
     border-radius: 10px;
 }
 
-.skillsGrid li:hover {
+.skillsGrid .list:hover {
     transition: all ease-in-out;
     transition-duration: 1s;
     transform: scale(1.1);
 }
 
-.skillsGrid li p {
+.skillsGrid .list p {
     color: white;
     font-weight: 600;
 }
 
 .skills-title {
+    position: absolute;
     color: white;
     padding: 90px 0 0px 100px;
     font-size: 1.6rem;
@@ -63,6 +63,129 @@
     color: #FFD401;
     font-weight: 900;
 }
+
+/* background list */
+.area {
+    background: #111;
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+    width: 100%;
+    height: 100vh;
+}
+
+.circles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 97%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+}
+
+.circles li:nth-child(1) {
+    left: 25%;
+    font-size: 80px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(2) {
+    left: 20%;
+    font-size: 80px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+.circles li:nth-child(3) {
+    left: 12%;
+    font-size: 100px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+.circles li:nth-child(4) {
+    left: 90%;
+    font-size: 100px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+.circles li:nth-child(5) {
+    left: 85%;
+    font-size: 60px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6) {
+    left: 80%;
+    font-size: 90px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+.circles li:nth-child(7) {
+    left: 35%;
+    font-size: 85px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8) {
+    left: 70%;
+    font-size: 30px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9) {
+    left: 20%;
+    font-size: 65px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10) {
+    left: 70%;
+    font-size: 50px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(11) {
+    left: 40%;
+    font-size: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(12) {
+    left: 10%;
+    font-size: 70px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100% {
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+
 
 @media (max-width: 800px) {
 
@@ -90,7 +213,7 @@
         text-align: center
     }
 
-    .skillsGrid li {
+    .skillsGrid .list {
         list-style: none;
         width: 60px;
         background-color: #282517;
@@ -98,7 +221,7 @@
         border-radius: 10px;
     }
 
-    .skillsGrid li p {
+    .skillsGrid .list p {
         display: none;
     }
 

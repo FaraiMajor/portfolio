@@ -18,15 +18,14 @@ export default function About() {
                     <div className="right-side">
                         <h3>I'm Farai</h3>
                         <h4>Software Engineer</h4>
-                        <p>Hello, my name is Farai Mutukumira. I am a recent graduate of Brooklyn College, where
-                            I earned my Bachelor's degree in Information Systems. I am a results-oriented and dedicated
-                            software engineer with a strong foundation in information systems and full-stack web
-                            development. Skilled in Java, Python, JavaScript, and various frameworks/libraries
-                            such as Node.js, Express.js, and React.js. Recognized for spearheading successful
-                            projects, including a WordPress website transition and the development of an e-commerce
-                            platform. Committed to delivering efficient and innovative solutions while maintaining
-                            a high level of code quality. Adept at collaborating with cross-functional teams and
-                            passionate about leveraging technology to drive positive user experiences. </p>
+                        <p>Hello, my name is Farai Mutukumira. Welcome to my portfolio
+                            website! I'm a technology enthusiast with a passion for solving
+                            complex problems. With a strong interest in the fields of web
+                            development, data science and software engineering , I enjoy
+                            exploring their ever-evolving landscape. In my free time, you
+                            can find me immersed in captivating books, challenging opponents
+                            in chess matches, or pushing myself at the gym. I'm excited
+                            to showcase my skills and experiences through my portfolio. </p>
                         <button>
                             <span>
                                 <a href="https://www.linkedin.com/in/faraimutukumira/" target="blank">
