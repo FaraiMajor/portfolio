@@ -24,18 +24,18 @@ const projectsData = [
         liveLink: "https://weather-rangers-frontend.herokuapp.com/",
         repoLink: "https://github.com/FaraiMajor/WeatherRangers_frontend"
     },
-    {
-        image: require('./assets/note-app.png'),
-        title: "Note App",
-        technologies: ["React", "CSS", "LocalStorage"],
-        description: [
-            "React app to make notes",
-            "Users can write, read, search, save, and delete notes",
-            "App data is stored in localStorage"
-        ],
-        liveLink: "https://faraimajor.github.io/note-app/",
-        repoLink: "https://github.com/FaraiMajor/note-app"
-    },
+    // {
+    //     image: require('./assets/note-app.png'),
+    //     title: "Note App",
+    //     technologies: ["React", "CSS", "LocalStorage"],
+    //     description: [
+    //         "React app to make notes",
+    //         "Users can write, read, search, save, and delete notes",
+    //         "App data is stored in localStorage"
+    //     ],
+    //     liveLink: "https://faraimajor.github.io/note-app/",
+    //     repoLink: "https://github.com/FaraiMajor/note-app"
+    // },
     {
         image: require('./assets/memories.png'),
         title: "Memoirs",

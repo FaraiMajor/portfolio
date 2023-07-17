@@ -8,7 +8,9 @@ import '../styles/skills.css'
 export default function Skills() {
     return (
         <div className="skillsSection" id="skills">
-            <h1 className="skills-title"><span>MY</span> SKILLS</h1>
+            <Zoom>
+                <h1 className="skills-title"><span>MY</span> SKILLS</h1>
+            </Zoom>
             <div class="area">
                 <ul class="circles">
                     {skillsData.map(skill => (
@@ -18,21 +20,23 @@ export default function Skills() {
                     ))}
                 </ul>
             </div>
-            <Zoom>
 
-                <div className="skillsContainer">
-                    <ul className="skillsGrid">
-                        {skillsData.map(skill => (
+
+            <div className="skillsContainer">
+                <ul className="skillsGrid">
+                    {skillsData.map(skill => (
+                        <Zoom>
                             <li className="list" key={skill.name}>
                                 <div className="itemContainer">
                                     <FontAwesomeIcon icon={skill.icon} color={skill.color} fontSize={50} />
                                     <p>{skill.name}</p>
                                 </div>
                             </li>
-                        ))}
-                    </ul>
-                </div>
-            </Zoom>
+                        </Zoom>
+                    ))}
+                </ul>
+            </div>
+
         </div>
     );
 }

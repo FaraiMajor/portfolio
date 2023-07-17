@@ -1,6 +1,6 @@
 import {
     faCss3, faHtml5, faNodeJs, faPython, faReact, faJs, faSlack,
-    faGitAlt, faGithubAlt, faJava, faWordpressSimple, faNpm
+    faGitAlt, faGithubAlt, faJava, faWordpressSimple, faNpm, faStripe
 } from '@fortawesome/free-brands-svg-icons';
 
 const skillsData = [
@@ -60,9 +60,9 @@ const skillsData = [
         color: 'rgba(204, 53, 52)',
     },
     {
-        name: 'Slack',
-        icon: faSlack,
-        color: '#2EB67D',
+        name: 'Stripe',
+        icon: faStripe,
+        color: '#5433FF',
     },
 ];
 export default skillsData

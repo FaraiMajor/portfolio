@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
 import { Link } from 'react-scroll';
+import Zoom from 'react-reveal/Zoom';
+
 import "../styles/navbar.scss";
 
 function Navbar() {
@@ -33,41 +35,47 @@ function Navbar() {
         setMenuOpen((p) => !p);
     };
 
+    const closeMenu = () => {
+        setMenuOpen(false);
+    };
+
     return (
-        <header className="header">
-            <div className="header__content">
-                <Link to="/" className="header__content__logo">
-                    FARAI
-                </Link>
-                <nav
-                    className={`${"header__content__nav"} 
+        <Zoom>
+            <header className="header">
+                <div className="header__content">
+                    <Link to="/" className="header__content__logo">
+                        FARAI
+                    </Link>
+                    <nav
+                        className={`${"header__content__nav"} 
           ${menuOpen && size.width < 768 ? `${"isMenu"}` : ""} 
           }`}
-                >
-                    <ul>
-                        <li className="nav-item">
-                            <Link className="link" to="about" spy={true} smooth={true} offset={-10} duration={500} >About</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="link" to="skills" spy={true} smooth={true} offset={-10} duration={500} >Skills</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="link" to="projects" spy={true} smooth={true} offset={-10} duration={500} >Projects</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="link" to="contact" spy={true} smooth={true} offset={-10} duration={500}>Contact</Link>
-                        </li>
-                    </ul>
-                </nav>
-                <div className="header__content__toggle">
-                    {!menuOpen ? (
-                        <BiMenuAltRight onClick={menuToggleHandler} />
-                    ) : (
-                        <AiOutlineClose onClick={menuToggleHandler} />
-                    )}
+                    >
+                        <ul>
+                            <li className="nav-item">
+                                <Link className="link" to="about" spy={true} smooth={true} offset={-10} duration={500} onClick={closeMenu} >About</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="link" to="skills" spy={true} smooth={true} offset={-10} duration={500} onClick={closeMenu} >Skills</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="link" to="projects" spy={true} smooth={true} offset={-10} duration={500} onClick={closeMenu} >Projects</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="link" to="contact" spy={true} smooth={true} offset={-10} duration={500} onClick={closeMenu} >Contact</Link>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div className="header__content__toggle">
+                        {!menuOpen ? (
+                            <BiMenuAltRight onClick={menuToggleHandler} />
+                        ) : (
+                            <AiOutlineClose onClick={menuToggleHandler} />
+                        )}
+                    </div>
                 </div>
-            </div>
-        </header>
+            </header>
+        </Zoom>
     );
 }
 
