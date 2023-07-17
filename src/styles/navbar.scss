@@ -120,16 +120,17 @@
         }
 
         &__toggle {
-            margin-right: 50px;
+            margin-right: 20px;
             cursor: pointer;
             display: flex;
             align-items: center;
             font-size: 2rem;
             transition: 0.3s ease all;
             position: relative;
+            color: black;
 
             &:hover {
-                color: rgb(162, 162, 246);
+                color: black;
             }
 
             @include breakpoint(md) {
