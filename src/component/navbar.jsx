@@ -41,7 +41,7 @@ function Navbar() {
     return (
         <header className="header">
             <div className="header__content">
-                <Link to="/" className="header__content__logo">
+                <Link to="mainEl" className="header__content__logo">
                     FARAI
                 </Link>
                 <nav
@@ -50,6 +50,9 @@ function Navbar() {
           }`}
                 >
                     <ul>
+                        <li className="nav-item">
+                            <Link className="link" to="mainEl" spy={true} smooth={true} offset={-10} duration={500} onClick={closeMenu} >Home</Link>
+                        </li>
                         <li className="nav-item">
                             <Link className="link" to="about" spy={true} smooth={true} offset={-10} duration={500} onClick={closeMenu} >About</Link>
                         </li>

@@ -25,7 +25,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 5px 0px;
+        padding: 0px 0px 10px;
         margin: 0 0 5px;
         position: fixed;
         z-index: 999;
@@ -37,9 +37,10 @@
             text-decoration: none;
             color: black;
             font-size: 1.5rem;
-            margin-left: 0.5rem;
             font-weight: 600;
             padding-left: 40px;
+            margin-top: 15px;
+            cursor: pointer;
         }
 
         &__nav {
@@ -99,6 +100,7 @@
                         border-radius: 12px;
                         font-weight: 600;
                         transition: 0.3s ease all;
+                        cursor: pointer;
 
                         &:hover {
                             background: rgba(#fff, 0.1);
@@ -109,6 +111,34 @@
                             background: linear-gradient(rgba(#fff, 0.1), rgba(#fff, 0.2));
                         }
                     }
+
+                }
+
+                .nav-item {
+                    position: relative;
+                    padding: 10px 0px;
+                    // margin-right: 5px;
+                    cursor: pointer;
+                    text-decoration: none;
+                    color: black;
+                }
+
+                .nav-item:after {
+                    background: none repeat scroll 0 0 transparent;
+                    bottom: 0;
+                    content: "";
+                    display: block;
+                    height: 2px;
+                    left: 50%;
+                    position: absolute;
+                    background: black;
+                    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+                    width: 0;
+                }
+
+                .nav-item:hover:after {
+                    width: 100%;
+                    left: 0;
                 }
             }
 
