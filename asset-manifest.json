@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.7a3ff2e4.css",
-    "main.js": "/static/js/main.e024fcc3.js",
+    "main.js": "/static/js/main.e65e5157.js",
     "static/media/veryrare.gif": "/static/media/veryrare.2cdf2d821ca3c73e36b8.gif",
     "static/media/faraivegas.png": "/static/media/faraivegas.cc97b89e48fe898692ce.png",
     "static/media/memories.png": "/static/media/memories.1084f43972c6cbee60cf.png",
     "static/media/weatherranger.png": "/static/media/weatherranger.912ccd249657c4a8587d.png",
     "index.html": "/index.html",
     "main.7a3ff2e4.css.map": "/static/css/main.7a3ff2e4.css.map",
-    "main.e024fcc3.js.map": "/static/js/main.e024fcc3.js.map"
+    "main.e65e5157.js.map": "/static/js/main.e65e5157.js.map"
   },
   "entrypoints": [
     "static/css/main.7a3ff2e4.css",
-    "static/js/main.e024fcc3.js"
+    "static/js/main.e65e5157.js"
   ]
 }
