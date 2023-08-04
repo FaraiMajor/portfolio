@@ -28,7 +28,7 @@ export default function Projects() {
                                         Technologies Used:{" "}
                                         {project.technologies.map((tech, index) => (
                                             <span className="techStack" key={index}>
-                                                {tech}{", "}
+                                                {tech}{""}
                                             </span>
                                         ))}
                                     </h4>

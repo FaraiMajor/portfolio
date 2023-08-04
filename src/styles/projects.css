@@ -95,9 +95,12 @@
 .describeContainer h4 .techStack {
     font-size: 0.8rem;
     display: inline-block;
-    margin: 0;
-    color: #FFD401;
-    padding: 0 5px;
+    margin: 3px 0;
+    background-color: #FFD401;
+    border-radius: 3px;
+    color: black;
+    margin-right: 5px;
+    padding: 5px 10px;
 }
 
 .describeContainer .techStack {
