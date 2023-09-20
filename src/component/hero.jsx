@@ -127,7 +127,7 @@ export default function Main() {
                         <h2 className="into">
                             <span>I am into</span>
                             <div className="message">
-                                <div className="word1">Technology</div>
+                                <div className="word1">Full Stack</div>
                                 <div className="word2">Engineering</div>
                                 <div className="word3">Data Analytics</div>
                             </div>
